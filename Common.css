@@ -539,3 +539,56 @@ html, body{
     font-size: 18px;
 }
 /* End Alsó Navbar */
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/*START MEDIA QUERY FOR COMMON ELEMENTS*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+
+    .subtitle h2{
+        font-size: 50px;
+    }
+
+    .main-header{
+        display:none;
+    }
+
+    /*Start Navigációs Sáv*/
+    .main-header-media1200{
+        display: contents;
+    }
+
+    .main-nav-media1200{
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .main-nav-media1200 ul{
+        padding-bottom: 40px;
+        padding-top: 1em;
+    }
+
+    .main-nav-media1200 li{
+        display: inline;
+    }
+
+    .main-nav-media1200 a{
+        display: inline-block; /*makes space on top of inline elements - the nav*/
+        padding-left: .4em;/*only makes space to left and right but not top since elements are inline*/
+        padding-right: .4em;/*only makes space to left and right but not top since elements are inline*/
+        color: black;
+        text-decoration: none;
+    }
+
+    .main-nav-media1200 a:hover{
+        color: white;
+    }
+
+    .main-nav-media1200 .active{
+        text-decoration: blink;
+        color: white;
+        border-bottom: 2px solid currentColor;
+    }
