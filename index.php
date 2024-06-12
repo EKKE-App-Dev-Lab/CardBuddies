@@ -58,6 +58,22 @@
         <script src="Javascript/SlideshowAuto.js"></script>
         <!--End Slideshow -->
 
-        
+        <!--Különleges ajánlat-->
+        <section class="offer-section">
+            <div class="offer-bg">
+                <div class="offer-data">
+                    <div class="subtitle">
+                        <h2>KÜLÖNLEGES AJÁNLAT</h2>
+                    </div>
+                    <p class="offer-description">Nyárindító ajánlatunk véget ér: </p>
+                    <p class="offer-description" id="countdown" style="font-family: Old Standard TT; font-size: 2rem;">AJÁNLAT VÉGE</p>
+
+                    <div class="subscribe-button-container">
+                        <a href="products.php"><button class="subscribe-button" name="subscribe">VÁSÁROLJ MOST</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Különleges ajánlat vége-->
     </body>
 </html>
