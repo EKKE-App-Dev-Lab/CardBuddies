@@ -426,3 +426,78 @@ html, body{
     border-radius: 5px;
 }
 
+
+/* Start Footer */
+.footer{
+    background-color: #9e9e9e;
+    background-size: 100%;
+    width: 100%;
+    height: 580px;
+    margin: 0;
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo-name{
+    font-size: 70px;
+    font-family: Playfair Display;
+}
+
+.footer-group .social-media{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.footer-group .social-media a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-group .social-media span{
+    display: inline;
+    letter-spacing: 8px;
+    font-size: 40px;
+}
+
+.contact-links{
+    font-size: 22px;
+}
+
+.contact-links span{
+    display: block;
+}
+
+.contact-links .phone{
+    padding: 25px 0;
+}
+
+.contact-links .address{
+    padding-bottom: 25px;
+}
+
+.legal-links{
+    font-size:20px;
+    line-height: 35px;
+}
+
+.legal-links span{
+    display: block;
+    letter-spacing: 3px;
+}
+
+.legal-links a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.copyright{
+    padding-top: 25px;
+}
+
+.copyright span{
+    font-size: 15px;
+}
+/* End Footer */
+
