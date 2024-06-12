@@ -530,3 +530,12 @@ html, body{
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;
 }
+
+.bottom-nav-active{
+    color: rgba(0,88,37,255);
+}
+
+.bottom-nav-icon{
+    font-size: 18px;
+}
+/* End Alsó Navbar */
