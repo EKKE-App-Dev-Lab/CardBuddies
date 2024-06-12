@@ -34,6 +34,14 @@
         <?php include './Includes/PcNavBar.php';?>
         <!--End Navigációs Sáv @media 1200px-->
 
+                <!--Start Wave Image-->
+                <div class="wave-image-group-media1200">
+            <div class="wave-image-flip-media1200">
+                <img src="Assets/images/1.index/NavBar_WaveWhiteThinFlip.png">
+            </div>
+        </div>
+        <!--End Wave Image-->
+
         <!--Start Slideshow-->
         <div class="slideshow-container">
 
@@ -57,6 +65,14 @@
 
         <script src="Javascript/SlideshowAuto.js"></script>
         <!--End Slideshow -->
+
+                <!--Start Wave Image-->
+                <div class="wave-image-group">
+            <div class="wave-image">
+                <img src="Assets/images/1.index/NavBar_WaveWhite.png">
+            </div>
+        </div>
+        <!--End Wave Image-->
 
         <!--Különleges ajánlat-->
         <section class="offer-section">
