@@ -33,5 +33,31 @@
         <!--Start Navigációs Sáv @media 1200px-->
         <?php include './Includes/PcNavBar.php';?>
         <!--End Navigációs Sáv @media 1200px-->
+
+        <!--Start Slideshow-->
+        <div class="slideshow-container">
+
+            <!-- Full-width képek számmal és felirat szöveggel -->
+            <div class="mySlides fade">
+            <img src="Assets/images/1.index/Slide_1.jpg" style="width:100%">
+            <div class="text">"MERT FOCI NÉLKÜL ÜRES AZ ÉLET!"</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <img src="Assets/images/1.index/Slide_2.jpg" style="width:100%">
+            <div class="text">"MINDEN KÁRTYA VALAMI KÜLÖNLEGESET REJT!"</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <img src="Assets/images/1.index/Slide_3.jpg" style="width:100%">
+            <div class="text">"EGY KLASSZIKUS JÁTÉKOS KÁRTYÁJÁNAK ÉRTÉKE SOHA NEM CSÖKKEN."</div>
+            </div>
+            
+        </div>
+
+        <script src="Javascript/SlideshowAuto.js"></script>
+        <!--End Slideshow -->
+
+        
     </body>
 </html>
