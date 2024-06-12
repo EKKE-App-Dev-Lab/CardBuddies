@@ -172,4 +172,27 @@ html, body{
 }
 /* End Navigációs Sáv */
 
+/* Start Wave Image */
+.wave-image-group-media1200{
+    display: none;
+}
 
+.wave-image-group img{
+    position:relative;
+    max-width:100%;
+    margin:0;
+    z-index:3;
+}
+
+.wave-image-group .wave-image{
+    margin-bottom: -10px;
+    margin-top: -30px;
+    vertical-align: bottom;
+}
+
+.wave-image-group .wave-image-flip{
+    margin-bottom: -40px;
+    margin-top: -10px;
+    vertical-align: top;
+}
+/* End Wave Image */
