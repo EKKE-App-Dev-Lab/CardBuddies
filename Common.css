@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+*{
+    box-sizing: border-box;
+    font-family: Nunito;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(0,88,37,255);
+    scroll-behavior: smooth;
+}
+
+.subtitle h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2.2pt;
+}
+
+.push-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.push-button button{
+    font-size: 15pt;
+    font-weight: bold;
+    line-height: 24pt;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 23px;
+    border: none;
+    background: rgba(0,88,37,255);
+    color: white;
+    letter-spacing: 2px;
+    transition: 0.2s all ease-in-out;
+    border-bottom: 2px solid transparent;
+    outline: none;
+}
