@@ -221,5 +221,9 @@
         <!--Start Hírfolyam-->
         <?php include './Includes/NewsLetter.php';?>
         <!--End Hírfolyam-->
+
+        <!--Start Footer-->
+        <?php include './Includes/Footer.php';?>
+        <!--End Footer-->
     </body>
 </html>
