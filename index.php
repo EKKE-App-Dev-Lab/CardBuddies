@@ -225,5 +225,9 @@
         <!--Start Footer-->
         <?php include './Includes/Footer.php';?>
         <!--End Footer-->
+
+        <!-- Start Mobil Alsó Nav -->
+        <?php include './Includes/MobileBottomNav.php';?>
+        <!-- End Mobil Alsó Nav -->
     </body>
 </html>
