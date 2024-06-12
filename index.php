@@ -34,13 +34,15 @@
         <?php include './Includes/PcNavBar.php';?>
         <!--End Navigációs Sáv @media 1200px-->
 
-                <!--Start Wave Image-->
-                <div class="wave-image-group-media1200">
+
+        <!--Start Wave Image-->
+        <div class="wave-image-group-media1200">
             <div class="wave-image-flip-media1200">
                 <img src="Assets/images/1.index/NavBar_WaveWhiteThinFlip.png">
             </div>
         </div>
         <!--End Wave Image-->
+
 
         <!--Start Slideshow-->
         <div class="slideshow-container">
@@ -66,13 +68,46 @@
         <script src="Javascript/SlideshowAuto.js"></script>
         <!--End Slideshow -->
 
-                <!--Start Wave Image-->
-                <div class="wave-image-group">
+
+        <!--Start Wave Image-->
+        <div class="wave-image-group">
             <div class="wave-image">
                 <img src="Assets/images/1.index/NavBar_WaveWhite.png">
             </div>
         </div>
         <!--End Wave Image-->
+
+        <!--Start Mit tudunk adni-->
+        <div class="what-you-can-do">
+            <div class="subtitle">
+                <h2>AJÁNLATAINK</h2>
+            </div>
+
+            <div class="row">
+
+                <div class="column">
+                    <i class="fas fa-solid fa-record-vinyl"  style="color: black;"></i>
+                    <span class="what-you-can-do-subtitle buy-our-cake">Dedikált kártyák</span>
+                    <span class="what-you-can-do-text">Válogass dedikált kártya relikviáinkból és rendeld meg online</span>
+                </div>
+
+                <div class="column">
+                    <i class="fas fa-solid fa-industry"  style="color: black;"></i>
+                    <span class="what-you-can-do-subtitle customize-cake">Készíts saját kártyát</span>
+                    <span class="what-you-can-do-text">Küldd el nekünk a digitális profilképed, értékelésed és mi elkészítjük a saját, egyedi kártyádat</span>
+                </div>
+                
+                <div class="column">
+                    <i class="fas fa-solid fa-star"  style="color: black;"></i>
+                    <span class="what-you-can-do-subtitle create-box">Új kiadású kártyák</span>
+                    <span class="what-you-can-do-text">Találd meg korunk zseniei limitált kiadású példányait</span>
+                </div>
+
+            </div>
+         </div>
+
+        </div>
+        <!--End Mit tudunk adni-->
 
         <!--Különleges ajánlat-->
         <section class="offer-section">
@@ -121,6 +156,14 @@
             </div>
          </div>
         <!--End Rendelés lépései-->
+
+        <!--Start Wave Image Flip-->
+        <div class="wave-image-group">
+            <div class="wave-image-flip how-to-order-wave">
+                <img src="Assets/images/1.index/NavBar_WaveWhiteFlip.png">
+            </div>
+        </div>
+        <!--End Wave Image Flip-->
 
         <!-- Start Mesterünk-->
         <div class="our-baker">
@@ -227,12 +270,12 @@
         <!-- End Mesterünk-->
 
         <!-- Start Google Map-->
-        <?php include './Includes/GoogleMap.php';?>
+            <?php include './Includes/GoogleMap.php';?>
         <!-- End Google Map-->
 
         <!-- Start Kapcsolatfelvétel -->
         <?php include './Includes/ContactUsForm.php';?>
-        <!-- End Kapcsolatfelvétel-->
+        <!-- End Kapcsolatfelvétel-->      
 
         <!--Start Hírfolyam-->
         <?php include './Includes/NewsLetter.php';?>
@@ -241,7 +284,7 @@
         <!--Start Footer-->
         <?php include './Includes/Footer.php';?>
         <!--End Footer-->
-
+      
         <!-- Start Mobil Alsó Nav -->
         <?php include './Includes/MobileBottomNav.php';?>
         <!-- End Mobil Alsó Nav -->
