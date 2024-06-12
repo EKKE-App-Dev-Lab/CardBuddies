@@ -218,5 +218,8 @@
         <?php include './Includes/ContactUsForm.php';?>
         <!-- End Kapcsolatfelvétel-->
 
+        <!--Start Hírfolyam-->
+        <?php include './Includes/NewsLetter.php';?>
+        <!--End Hírfolyam-->
     </body>
 </html>
