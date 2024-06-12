@@ -196,3 +196,117 @@ html, body{
     vertical-align: top;
 }
 /* End Wave Image */
+
+/* Start Helyszín */
+.google-map{
+    vertical-align: bottom;
+    margin-bottom: -7px;
+}
+
+.map .subtitle h2{
+    color: black;
+}
+/* End Helyszín */
+
+
+
+/* Start Kapcsolatfelvétel Form */
+.contact-section .input-error{
+    font-size: 12pt;
+    color:  rgba(0,88,37,255);
+}
+
+.contact-section .send-input-message{
+    font-size: 12pt;
+    color: rgba(0,88,37,255);
+}
+
+.contact-section h2{
+    padding-top: 28px;
+    margin:0;
+    color: white;
+}
+
+.contact-section .subtitle{
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-section .subtitle p{
+    color: white;
+    font-size: 14pt;
+}
+
+.contact-us{
+    background: #282c2f;
+    padding: 0px 40px;
+    padding-bottom: 50px;
+    /* border-top: 10px solid #23CFA7FF; */
+}
+
+.contact-section label, input, textarea {
+    display: block;
+    width: 100%;
+    font-size: 12pt;
+    color: white;
+    line-height: 24pt;
+}
+ 
+.contact-section input {
+    color: black;
+    margin-bottom: 24pt;
+}
+  
+.contact-section h3 {
+    font-weight: normal;
+    font-size: 10pt;
+    line-height: 24pt;
+    font-style: italic;
+    margin: 0 0 0.5em 0;
+}
+  
+.contact-section span {
+    font-size: 8pt;
+}
+  
+.contact-section em {
+    color: rgba(0,88,37,255);
+    font-weight: bold;
+}
+  
+.contact-section input, textarea {
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    background: white;
+    padding-left: 5px;
+    outline: none;
+}
+  
+.contact-section input:focus, textarea:focus {
+    border: 1px solid rgba(0,88,37,255);
+}
+  
+.contact-section textarea {
+    color: black;
+    resize: none;
+}
+
+.contact-section button:hover {
+    color: white;
+    border-bottom: 2px solid rgba(0,88,37,255);
+}
+
+.contact-section .g-recaptcha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us .captcha-error-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* End Kapcsolatfelvétel Form */
