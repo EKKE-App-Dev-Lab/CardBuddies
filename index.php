@@ -214,5 +214,9 @@
         <?php include './Includes/GoogleMap.php';?>
         <!-- End Google Map-->
 
+        <!-- Start Kapcsolatfelvétel -->
+        <?php include './Includes/ContactUsForm.php';?>
+        <!-- End Kapcsolatfelvétel-->
+
     </body>
 </html>
