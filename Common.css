@@ -592,3 +592,30 @@ html, body{
         color: white;
         border-bottom: 2px solid currentColor;
     }
+
+    .main-nav-media1200 li{
+        padding: 0 2%;
+    }
+
+    .business-name-media1200 a{
+        float: left;
+        margin: 0;
+        margin-top: 0;
+        font-size: 60px;
+        color: black;
+        font-family: Playfair Display;
+        font-weight: 100; 
+    }
+
+    .main-nav-media1200 .logo-business-name:hover{
+        color:#9DDFD3FF;
+    }
+
+    .main-nav-media1200 .user-button{
+        font-size: 32px;
+    }
+
+    .indexNav ul{
+        padding-bottom: 0px;
+    }
+    /*End Navigációs Sáv*/
