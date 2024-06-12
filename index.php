@@ -75,5 +75,36 @@
             </div>
         </section>
         <!--Különleges ajánlat vége-->
+
+        <!--Start Rendelés lépései-->
+        <div class="how-to-order">
+            <div class="subtitle">
+                <h2 class="order-subtitle">MEGRENDELÉS MENETE</h2>
+            </div>
+            <div class="row" style="color: #1a73e8;">
+                <div class="column">
+                  <i class="fas fa-solid fa-record-vinyl"></i>
+                  <p><b>Válaszd ki a kártyát</b></p>
+                </div>
+                <div class="column">
+                  <i class="fas fa-cart-plus"></i>
+                  <p><b>Add hozzá a kosaradhoz</b></p>
+                </div>
+                <div class="column">
+                  <i class="fas fa-money-check-alt"></i>
+                  <p><b>Megrendelés és fizetés</b></p>
+                </div>
+                 <div class="column">
+                 <i class="fas fa-box-open"></i>
+                 <p><b>Rendelésfeldolgozás</b></p>
+                </div>
+                  <div class="column">
+                  <i class="fas fa-shipping-fast"></i>
+                  <p><b>Kiszállítás</b></p>
+                </div>
+            </div>
+         </div>
+        <!--End Rendelés lépései-->
+        
     </body>
 </html>
