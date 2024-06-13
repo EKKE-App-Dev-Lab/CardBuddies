@@ -23,6 +23,29 @@
     <body>
         <?php $page = 'about';?>
 
-        
+        <!--Start Navigációs Sáv-->
+        <?php include './Includes/MobileNavBar.php';?>
+        <!--End Navigációs Sáv-->
+
+
+        <!--Start Navigációs Sáv @media 1200px-->
+        <?php include './Includes/PcNavBar.php';?>
+        <!--End Navigációs Sáv @media 1200px-->
+
+
+        <!--Start Fejléc-->
+        <div class="about-us-header">
+            <div class="banner-group">
+                <div class="banner"></div>
+            </div>
+            
+            <div class="about-us-subtitle">
+                <span>RÓLUNK</span>
+            </div>
+        </div>
+        <!--End Fejléc-->
+
+
+
     </body>
 </html>
