@@ -685,3 +685,26 @@ html, body{
         padding-bottom: 50px;
     }
     /* End Kapcsolatfelvétel Form */
+    
+    /* Start Hírfolyam */
+    .newsletter{
+
+        padding-left: 400px; 
+        padding-right: 400px; 
+    }
+
+    .subscribe-button-container{
+        width: 150px;
+    }
+    /* End Hírfolyam */
+
+
+    /* Start Alsó Navbar */
+    .bottom-nav{
+        display: none;
+    }
+    /* End Alsó Navbar */
+}
+/*---------------------------------------------------------------------------------------------*/
+/*END MEDIA QUERY FOR COMMON ELEMENTS*/
+/*---------------------------------------------------------------------------------------------*/
