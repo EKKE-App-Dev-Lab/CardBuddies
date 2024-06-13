@@ -209,5 +209,30 @@
         </div>
     </div>
     <!--End Csapatinfó-->
+    
+
+    <!-- Start Google Map-->
+    <?php include './Includes/GoogleMap.php';?>
+    <!-- End Google Map-->
+
+
+    <!-- Start Kapcsolatfelvétel -->
+    <?php include './Includes/ContactUsForm.php';?>
+    <!-- End Kapcsolatfelvétel-->
+        
+
+    <!--Start Hírfolyam-->
+    <?php include './Includes/NewsLetter.php';?>
+    <!--End Hírfolyam-->
+
+
+    <!--Start Footer-->
+    <?php include './Includes/Footer.php';?>
+    <!--End Footer-->
+
+        
+    <!-- Start Alsó Nav -->
+    <?php include './Includes/MobileBottomNav.php';?>
+    <!-- End Alsó Nav -->
     </body>
 </html>
