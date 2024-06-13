@@ -78,6 +78,61 @@
     </div>
     <!--End Mester Info-->
 
+    <!--Start Kitüntetések-->
+    <div class="award-section">
+        <div class="award-title">
+            <span>Kitüntetéseink</span>
+        </div>
+
+        <div class="subtitle">
+            <h2>DÍJNYERTES</h2>
+        </div>
+
+        <div class="award-badge-container">
+             <div class="award-badge-group">
+                <div class="badge badge1">
+                    <div class="badge-photo-group">
+                        <div class="badge-photo"></div>
+                    </div>
+                        
+                    <div class="badge-info">
+                        <span class="badge-title">AZ ÉV KÁRTYABOLTJA</span>
+                        <span class="badge-date">2010-2011</span>
+                        <p class="badge-description">Legtöbb eladott minőségi gyűjthető kártya Magyarországon!</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="award-badge-group">
+                <div class="badge badge2">
+                    <div class="badge-photo-group">
+                        <div class="badge-photo"></div>
+                    </div>
+                        
+                    <div class="badge-info">
+                        <span class="badge-title">A ÉV KÁRTYABOLTJA</span>
+                        <span class="badge-date">2015-2016</span>
+                        <p class="badge-description">Legtöbb eladott minőségi gyűjthető kártya Magyarországon!</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="award-badge-group">
+                <div class="badge badge3">
+                    <div class="badge-photo-group">
+                        <div class="badge-photo"></div>
+                    </div>
+                        
+                    <div class="badge-info">
+                        <span class="badge-title">AZ ÉV KÁRTYA KÉSZÍTŐJE</span>
+                        <span class="badge-date">2019-2020</span>
+                        <p class="badge-description">Legtöbb minőségi kártya elkészítését és forgalomba helyezését végezte Magyarországon 2019-ben!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Kitüntetések-->
 
 
     </body>
