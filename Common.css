@@ -653,3 +653,35 @@ html, body{
         vertical-align: top;
     }
     /* End Wave Image */
+
+    
+    /* Start Helyszín */
+    .map .subtitle h2{
+        color: black;
+    }
+    /* End Helyszín */
+
+
+    /* Start Kapcsolatfelvétel Form */
+    .contact-section h2{
+        padding-top: 40px;
+        font-size: 40px;
+        margin:0;
+        color: white;
+    }
+
+    .contact-section .subtitle p{
+        font-size: 15pt;
+    }
+
+    .contact-section button{
+        border-radius: 30px;
+        padding-top: 15px;
+    }
+
+    .contact-us{
+        background: #282c2f;
+        padding: 0px 300px;
+        padding-bottom: 50px;
+    }
+    /* End Kapcsolatfelvétel Form */
