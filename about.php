@@ -174,8 +174,40 @@
                         </div>
                     </div> 
                 </div>
-            </div>                          
+            </div>    
 
+        <div class="helper-individual">
+                <div class="helper-group helper2">
+                    <div class="helper-pic-group">
+                        <div class="helper-pic"></div>
+                    </div>
 
+                    <div class = "helper-more-about">
+                        <p class="name"><b>MÁGNESES ÁGNES</b></p>
+                        <p class="hierarchy">SZERKESZTŐ ÉS ARCHIVÁLÓ</p>
+                        <p class="description">...ÉS A GÓL...ÉS A GÓL...MAGYARORSZÁG 2...AUSZTRIA NULLAAAA...</p>
+                    </div>
+        
+                    <div class="helper-social-media">
+                        <div class="social-media">
+                            <span class="facebook">
+                                <a href=#><i class="fab fa-facebook-square"></i></a>
+                            </span>
+                            <span class="twitter">
+                                <a href=#><i class="fab fa-twitter-square"></i></a>
+                            </span>
+                            <span class="instagram">
+                                <a href=#><i class="fab fa-instagram-square"></i></a>
+                            </span>
+                            <span class="pinterest">
+                                <a href=#><i class="fab fa-pinterest-square"></i></a>
+                            </span>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Csapatinfó-->
     </body>
 </html>
