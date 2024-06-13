@@ -45,6 +45,39 @@
         </div>
         <!--End Fejléc-->
 
+        <!--Start Mester Info-->
+        <div class="baker-info-group">
+        <div class="baker-info-container">
+            <div class="baker-info-text">
+                <div class="baker-info-title">
+                   <span>Mesterünk</span>
+                </div>
+        
+                <div class="baker-name">
+                    <span>KÖLES KATA</span>
+                </div>
+        
+                <div class="baker-description">
+                    <p>
+                        „Pelé - 1000. gól, Diego Maradona - '86-os világbajnokság, Zinedine Zidane - Fejjelés, Lionel Messi - 91 gól egy évben, Cristiano Ronaldo - Ollózós gól, David Beckham - Szabadrúgás Görögország ellen, Kylian Mbappé - 2018-as világbajnoki mesterhármas. Történelmi pillanatok.”</p>
+                </div>
+        
+                <div class="baker-signature">
+                    <div class="signature-photo"></div>
+                </div>
+        
+                <div class="baker-position">
+                    <span>CEO - CARDBUDDIES Kártyabolt</span>
+                </div>
+            </div>
+                
+            <div class="baker-photo-group">
+                <div class="baker-photo"></div>
+            </div>
+        </div>
+    </div>
+    <!--End Mester Info-->
+
 
 
     </body>
