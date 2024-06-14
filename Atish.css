@@ -619,5 +619,279 @@
     /*---------------------------------------------------------------------------------------------*/
     /*START MEDIA QUERY FOR ABOUTUS.HTML*/
     /*---------------------------------------------------------------------------------------------*/
-         
+    
+    @media only screen and (min-width: 1200px){
+        /* Start Rólunk Header */
+        .about-us-header .banner{
+            padding-bottom: 300px;
+        }
+        /* End Rólunk Header */
+        
+        
+        /* Start Mester Info */
+        .baker-info-group{
+            padding-bottom: 0px;
+        }
+        
+        .baker-info-container{
+            display: flex;
+        }
+        
+        .baker-info-text{
+            padding: 0 80px;
+            width: 800px;
+        }
+        
+        .baker-photo-group{
+            float: right;
+            width: 500px;
+        }
+        
+        .baker-info-group .baker-info-title span{
+            font-size: 25px;
+            font-family: Courgette;
+            color:#1a73e8;
+        }
+        
+        .baker-info-group .baker-name{
+            font-size: 40px;
+            padding-top: 15px;
+        }
+        
+        .baker-info-group .baker-description{
+            padding: 0px 40px;
+            padding-bottom: 15px;
+        }
+        
+        .baker-signature{
+            width: 150px;
+            padding-bottom: 25px;
+        }
+        
+        .baker-signature .signature-photo{
+            background-image: url("./Assets/images/4.aboutus/Sara_Signature.png");
+            padding-bottom: 50%;
+            background-size:contain;
+            background-repeat: no-repeat;
+        }
+        
+        .baker-info-group .baker-position{
+            padding-bottom: 20px;
+        }
+        
+        .baker-info-group .baker-position span{
+            font-size: 20px;
+            font-family: Courgette;
+            color:#1a73e8;
+        }
+        
+        .baker-photo-group .baker-photo{
+            background-image: url("./Assets/images/4.aboutus/Sara_Transparent.png");
+            padding-bottom: 100%;
+            background-size: 500px;
+            background-size: cover;
+        }
+        /* End Mester Info */
+        
+        
+        /* Start Kitüntetés Szekció */
+        .award-section{
+            background-color: #F4F3EFFF;
+            padding-top: 50px;
+            padding-bottom: 80px;
+            margin-top: 0px;
+        }
+        
+        .award-title{
+            text-align: center;
+            color:#1a73e8;
+        }
+        
+        .award-title span{
+            font-size: 25px;
+            font-family: Courgette;
+        }
+        
+        .badge-photo-group{
+            width: 350px;
+            padding-top: 25px;
+            padding-bottom: 15px;
+        }
+        
+        .badge1 .badge-photo{
+            background-image: url("./Assets/images/4.aboutus/Badge1.jpg");
+        }
+        
+        .badge2 .badge-photo{
+            background-image: url("./Assets/images/4.aboutus/Badge2.jpg");
+        }
+        
+        .badge3 .badge-photo{
+            background-image: url("./Assets/images/4.aboutus/Badge3.jpg");
+        }
+        
+        .badge-photo{
+            padding-bottom: 150px;
+            background-position: center;
+            background-size:contain;
+            background-repeat: no-repeat;
+        }
+        
+        .badge-info span{
+            font-weight: bold;
+            text-align: center;
+            display: block;
+        }
+        
+        .badge-info p{
+            text-align: center;
+        }
+        
+        .badge-info .badge-title{
+            font-size: 25px;
+        }
+        
+        .badge-info .badge-date{
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-size: 20px;
+            font-family: Courgette;
+            color:#1a73e8;
+        }
+        
+        .badge-info .badge-description{
+            font-size: 20px;
+        }
+        /* End Kitüntetés Szekció */
+        
+        
+        /* Start Kitüntetés Szekció */
+        .award-badge-container{
+            display:flex;
+        }
+        /* End Kitüntetés Szekció */
+        
+        
+        /* Start Team Info */
+        .team-section{
+            background:linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("./Assets/images/4.aboutus/VinylPattern.jpg");
+            background-position: center;
+            background-size:cover;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 60px;
+        }
+        
+        .team-section .team-subtitle{
+            font-size: 40px;
+        }
+        
+        .team-section .team-title{
+            padding-bottom: 15px;
+            font-size:25px;
+        }
+        
+        .team-section .team-title span{
+            font-family: Courgette;
+            color:#1a73e8;
+        }
+        
+        .all-helper-info{
+            margin: auto;
+            width: 1000px;
+            display: flex;
+        }
+        
+        .helper1 .helper-pic{
+            background-image: url("./Assets/images/4.aboutus/Helper1.jpg");
+            padding-bottom: 100%;
+            background-size: cover;
+        }
+        
+        .helper2 .helper-pic{
+            background-image: url("./Assets/images/4.aboutus/Helper2.jpg");
+            padding-bottom: 100%;
+            background-size: cover;
+        }
+        
+        .helper-group{
+            width: 400px;
+            background-color: white;
+            padding-bottom: 25px;
+        }
+        
+        .helper-individual{
+            padding:20px 50px;
+        }
+        
+        .helper-more-about{
+            padding-top: 15px;
+        }
+        
+        .helper-more-about .name{
+            font-size: 20px;
+        }
+        
+        .helper-more-about .description{
+            font-size: 20px;
+        }
+        
+        
+        .helper-more-about .hierarchy{
+            font-size: 20px;
+            color: #1a73e8;
+        }
+        
+        .helper-social-media .social-media a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        .helper-social-media .social-media span{
+            display: inline;
+            letter-spacing: 8px;
+            font-size: 25px;
+        }
+        /* End Team Info */
+        
+        }
+        
+        /*---------------------------------------------------------------------------------------------*/
+        /*END MEDIA QUERY FOR ABOUTUS.HTML*/
+        /*---------------------------------------------------------------------------------------------*/
+        
+        
+        /*--------------------------------------------------------------------------*/
+        /*Start KAPCSOLATFELVÉTEL Oldal*/
+        /*--------------------------------------------------------------------------*/
+        
+        /* Start Banner */
+        .contact-us-header .banner{
+        background:linear-gradient(rgba(6, 0, 85, 0.3), rgba(6, 0, 85, 0.3)), url("./Assets/images/5.contactus/Banner.jpg");
+        padding-bottom: 150px;
+        background-position: bottom;
+        background-size: cover;
+        }
+        /* End Banner */
+        
+        /*--------------------------------------------------------------------------*/
+        /*End KAPCSOLATFELVÉTEL Oldal*/
+        /*--------------------------------------------------------------------------*/
+        
+        
+        /*---------------------------------------------------------------------------------------------*/
+        /*START MEDIA QUERY FOR CONTACTUS.HTML*/
+        /*---------------------------------------------------------------------------------------------*/
+        
+        @media only screen and (min-width: 1200px){
+        
+        .contact-us-header .banner{
+            padding-bottom: 300px;
+        
+        }
+        }
+        
+        /*---------------------------------------------------------------------------------------------*/
+        /*END MEDIA QUERY FOR CONTACTUS.HTML*/
+        /*---------------------------------------------------------------------------------------------*/ 
     
