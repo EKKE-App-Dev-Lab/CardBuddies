@@ -494,5 +494,130 @@
     .badge2 .badge-photo{
     background-image: url("./Assets/images/4.aboutus/Badge2.png");
     }
-        
+    .badge3 .badge-photo{
+        background-image: url("./Assets/images/4.aboutus/Badge3.png");
+    }
+    
+    .badge-photo{
+    padding-bottom: 150px;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    }
+    
+    .badge-info span{
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    }
+    
+    .badge-info p{
+    text-align: center;
+    }
+    
+    .badge-info .badge-title{
+    font-size: 25px;
+    }
+    
+    .badge-info .badge-date{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: Courgette;
+    color:#1a73e8;
+    }
+    
+    .badge-info .badge-description{
+    font-size: 20px;
+    }
+    /* End Kitüntetés Szekció */
+    
+    
+    /* Start Team Info */
+    .team-section{
+    background:linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("./Assets/images/4.aboutus/CakePattern.jpg");
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    }
+    
+    .team-section .subtitle h2{
+    margin: 0;
+    color: black;
+    }
+    
+    .team-section .team-title{
+    padding-bottom: 15px;
+    font-size:25px;
+    }
+    
+    .team-section .team-title span{
+    font-family: Courgette;
+    color:#1a73e8;
+    }
+    
+    .helper0 .helper-pic{
+    background-image: url("./Assets/images/1.index/Helper0.jpg");
+    padding-bottom: 100%;
+    background-size: cover;
+    }
+    
+    .helper1 .helper-pic{
+    background-image: url("./Assets/images/4.aboutus/Helper1.jpg");
+    padding-bottom: 100%;
+    background-size: cover;
+    }
+    
+    .helper2 .helper-pic{
+    background-image: url("./Assets/images/4.aboutus/Helper2.jpg");
+    padding-bottom: 100%;
+    background-size: cover;
+    }
+    
+    .helper-group{
+    background-color: white;
+    padding-bottom: 25px;
+    }
+    
+    .helper-individual{
+    padding-top: 50px;
+    }
+    
+    .helper-more-about{
+    padding-top: 15px;
+    }
+    
+    .helper-more-about .name{
+    font-size: 20px;
+    }
+    
+    .helper-more-about .description{
+    font-size: 20px;
+    }
+    
+    
+    .helper-more-about .hierarchy{
+    font-size: 20px;
+    color: #1a73e8;
+    }
+    
+    .helper-social-media .social-media a{
+    text-decoration: none;
+    color: black;
+    }
+    
+    .helper-social-media .social-media span{
+    display: inline;
+    letter-spacing: 8px;
+    font-size: 25px;
+    }
+    /* End Team Info */
+    
+    
+    /*---------------------------------------------------------------------------------------------*/
+    /*START MEDIA QUERY FOR ABOUTUS.HTML*/
+    /*---------------------------------------------------------------------------------------------*/
+         
     
