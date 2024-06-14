@@ -288,5 +288,107 @@
     }
     /* End Slideshow */
 
+    /* Start Munkánk */
+    .what-you-can-do h2{
+        padding-top: 20px;
+        color:black;
+        margin: 0px;
+    }
 
-}
+    .what-you-can-do .column .what-you-can-do-subtitle{
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .what-you-can-do .column .what-you-can-do-text{
+        font-size: 28px;
+        color: black;
+    }
+
+    .what-you-can-do .row{
+        display: flex;
+
+    }
+    /* End Munkánk */
+
+
+    /* Start Speciális ajánlat */
+    .offer-data{
+        margin-bottom: 0;
+        padding: 0 10px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    .offer-data p{
+        font-size: 25px;
+    }
+
+    .offer-section .subtitle h2{
+        color: white;
+    }
+    /* End Speciális ajánlat */
+
+
+    /* Start Hogyan rendelj*/
+    .how-to-order h2{
+        padding-top: 20px;
+        margin: 0px;
+    }
+
+    .how-to-order .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow:1;
+        flex-basis: 0;
+        padding-top: 30px;
+        overflow-x: auto;
+        margin:0;
+    }
+
+    .how-to-order .column{
+        padding: 0 50px;
+        white-space: nowrap;
+    }
+
+    .how-to-order .row .column p{
+        font-size: 25px;
+        margin:0;
+    }
+
+    .wave-image-group .how-to-order-wave{
+        margin-bottom: -70px;
+    }
+    /* End Hogyan rendelj*/
+
+
+    /* Start Mesterünk */
+    .helper-individual-index{
+        padding:20px 15px;
+    }
+
+    .all-helper-info-index{
+        margin: auto;
+        width: 1300px;
+        display: flex;
+    }
+    /* End Mesterünk */
+    }
+    /*---------------------------------------------------------------------------------------------*/
+    /*END MEDIA QUERY FOR INDEX.HTML*/
+    /*---------------------------------------------------------------------------------------------*/
+
+
+    /*--------------------------------------------------------------------------*/
+    /*Start RÓLUNK Oldal*/
+    /*--------------------------------------------------------------------------*/
+
+    /* Start Rólunk Header */
+    .about-us-header .banner{
+    background:linear-gradient(rgba(6, 0, 85, 0.3), rgba(6, 0, 85, 0.3)), url("./Assets/images/4.aboutus/Banner.jpg");
+    padding-bottom: 150px;
+    background-position: center;
+    background-size: cover;
+    }
