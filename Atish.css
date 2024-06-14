@@ -392,3 +392,107 @@
     background-position: center;
     background-size: cover;
     }
+
+    .about-us-header .about-us-subtitle{
+        text-align: center;
+        font-size: 50px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        color:#1a73e8;
+    }
+    /*End Rólunk Header*/
+    
+    
+    /* Start Munkás Info */
+    .baker-info-group{
+    text-align: center;
+    padding-bottom: 50px;
+    }
+    
+    .baker-info-group .baker-info-title span{
+    font-size: 25px;
+    font-family: Courgette;
+    color:#1a73e8;
+    }
+    
+    .baker-info-group .baker-name{
+    font-size: 40px;
+    padding-top: 15px;
+    }
+    
+    .baker-info-group .baker-description{
+    padding: 0px 40px;
+    padding-bottom: 15px;
+    }
+    
+    .baker-signature{
+    margin:auto;
+    width: 150px;
+    padding-bottom: 25px;
+    }
+    
+    .baker-signature .signature-photo{
+    background-image: url("./Assets/images/4.aboutus/Sara_Signature.png");
+    padding-bottom: 50%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    }
+    
+    .baker-info-group .baker-position{
+    padding-bottom: 20px;
+    }
+    
+    .baker-info-group .baker-position span{
+    font-size: 20px;
+    font-family: Courgette;
+    color:#1a73e8;
+    }
+    
+    .baker-photo-group .baker-photo{
+    background-image: url("./Assets/images/4.aboutus/Helper0.jpg");
+    padding-bottom: 100%;
+    background-size: cover;
+    }
+    /* End Munkás Info */
+    
+    
+    /* Start Kitüntetés Szekció */
+    .award-section{
+    background-color: #F4F3EFFF;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-top: -80px;
+    }
+    
+    .award-section .subtitle h2{
+    margin: 0;
+    color:black;
+    }
+    
+    .award-title{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#1a73e8;
+    }
+    
+    .award-title span{
+    font-size: 25px;
+    font-family: Courgette;
+    }
+    
+    .badge-photo-group{
+    margin: auto;
+    width: 350px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    }
+    
+    .badge1 .badge-photo{
+    background-image: url("./Assets/images/4.aboutus/Badge1.png");
+    }
+    
+    .badge2 .badge-photo{
+    background-image: url("./Assets/images/4.aboutus/Badge2.png");
+    }
+        
+    
