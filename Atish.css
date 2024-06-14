@@ -205,3 +205,88 @@
 }
 /* End Hogyan rendelj*/
 
+
+/* Start Mesterünk */
+.our-baker{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Assets/images/1.index/VinylPattern_Darken.jpg");
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.our-baker .team-subtitle{
+    font-size: 40px;
+}
+
+.our-baker .team-title{
+    padding-bottom: 15px;
+    font-size:25px;
+}
+
+.our-baker h2{
+    padding: 0 20px;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    margin: 0;
+    color: white;
+}
+
+.baker-info p{
+    font-size: 20px;
+}
+
+.baker-more-about{
+    background-color: white;
+    margin-top:-10px;
+    padding: 10px 0px;
+}
+
+.baker-profile-group p{
+    text-align: center;
+}
+
+.baker-profile-group .name{
+    font-size: 20px;
+}
+
+.baker-profile-group .description{
+    font-size: 20px;
+}
+
+.baker-profile-group .hierarchy{
+    color: #1a73e8;
+}
+/* End Mesterünk */
+
+
+/*---------------------------------------------------------------------------------------------*/
+/*START MEDIA QUERY FOR INDEX.HTML*/
+/*---------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+    .subtitle h2{
+        font-size: 50px;
+    }
+
+    /* Start Slideshow */
+    .slideshow-container{
+        max-width: 100%;
+    }
+
+    .slideshow-container .text{
+        color: #f2f2f2;
+        line-height: 125px;
+        font-size: 100px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        z-index:3;
+    }
+    /* End Slideshow */
+
+
+}
