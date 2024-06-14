@@ -87,3 +87,121 @@
     color:black;
     padding-bottom: 40px;
 }
+
+.what-you-can-do .row .column{
+    display: block;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.what-you-can-do .row .column span{
+    display: block;
+    padding: 0 30px;
+    margin: 0;
+}
+/* End Munkánk */
+
+
+/* Start Speciális ajánlat */
+.offer-section{
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+.offer-bg {
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Assets/images/2.products/cupcake_bg2_cropped.jpg");
+    background-position: center; /* képet középre igazít */
+    background-repeat: no-repeat; /* ne ismételje a képet */
+    background-size: cover; /* Átméretezi a képet, hogy lefedje az egész konténert */
+    text-align: center;
+}
+
+.offer-data{
+    margin-bottom: 10px;
+    padding: 0 10px;
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+
+.offer-data p{
+    color: white;
+    font-size: 20px;
+}
+
+.offer-section .subtitle h2{
+    color: white;
+}
+
+.offer-description{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    letter-spacing: .2rem;
+}
+
+/* == Vásárlás most Gomb == */
+.offer-section .subscribe-button-container{
+    display: inline-block;
+}
+
+.subscribe-button{
+    border: none;
+    background-color: #1a73e8;
+    color: white;
+    padding: 1rem;
+    font-size: 12pt;
+    font-weight: 600;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.subscribe-button:hover{
+    background-color: black;
+}
+
+.subscribe-button {
+    border-radius: 25px;
+}
+
+.subscribe-button-container{
+    width: 150px;
+}
+/* End Speciális ajánlat */
+
+
+/* Start Hogyan rendelj*/
+.how-to-order h2{
+    padding-top: 40px;
+    color:black;
+    margin: 0px;
+}
+
+.how-to-order{
+    position:relative;
+    background-color: white;
+}
+
+.how-to-order .row{
+    text-align: center;
+    font-size:80px;
+    color:black;
+    padding-bottom: 40px;
+}
+
+.how-to-order .row .column{
+    display: block;
+    padding-top: 30px;
+    margin:0;
+}
+
+.how-to-order .row .column p{
+    font-size: 25px;
+    color:black;
+    margin:0;
+}
+
+.wave-image-group .how-to-order-wave{
+    margin-bottom: -70px;
+}
+/* End Hogyan rendelj*/
+
