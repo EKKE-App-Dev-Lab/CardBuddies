@@ -22,5 +22,22 @@ hozzáférése, hogy új termékeket tudjon felvinni, módosítani, törölni k�
 felhasználókat is törölni tudja. Ugyanakkor megrendelőnk jogosultságával a weboldalon keresztül is tud termékeket
 felvinni/módosítani/törölni, ami közvetlenül az adatbázisba íródik.
 
+## 2. Projekt terv
 
+A projekt egy weboldal, ami PHP alapokon nyugszik, de használ HTML, CSS, Bootstrap, JavaScript elemeket, valamint MySQL
+adatbázist a felhasználók, termékek és vásárlási adatok rögzítéséhez. Öt fejlesztő dolgozik egyszerre a
+megvalósításon, ezért a konfliktusok kezelésére projektmenedzsment és kollaborációs eszközöket használunk.
+
+A feladatok nyomon követésére a Trello-ban létrehozott felületet használjuk.
+
+A folyamatos kommunikációhoz és a projekt megbeszélésekhez, valamint az azonnali problémamegoldáshoz a Discord-on
+létrehozott projekt szervert használjuk. Az itt rendelkezésre álló eszközök, úgymint chat, fájlmegosztás,
+képernyőmegosztás és telefon/videókonferencia hívás extenzíven támogatják a feladat megvalósítását.
+
+A kódon végzett változtatásokat és az esetleges párhuzamosan végzett módosítások konfliktusait a GitHub használatával
+orvosoljuk, és itt követjük nyomon a kódfejlesztés előrehaladását.
+
+## 3. Üzleti folyamatok modellje
+
+### 3.1 Üzleti szereplők
 
