@@ -183,7 +183,7 @@
                     </div>
 
                     <div class = "helper-more-about">
-                        <p class="name"><b>MÁGNESES ÁGNES</b></p>
+                        <p class="name"><b>MÁGNES ÁGOSTON</b></p>
                         <p class="hierarchy">SZERKESZTŐ ÉS ARCHIVÁLÓ</p>
                         <p class="description">...ÉS A GÓL...ÉS A GÓL...MAGYARORSZÁG 2...AUSZTRIA NULLAAAA...</p>
                     </div>

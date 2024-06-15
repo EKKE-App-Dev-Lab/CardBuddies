@@ -13,7 +13,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color:rgba(0,88,37,255);
+    background-color:rgba(72,105,26,1.000);
     scroll-behavior: smooth;
 }
 
@@ -38,7 +38,7 @@ html, body{
     width: 100%;
     margin-top: 23px;
     border: none;
-    background: rgba(0,88,37,255);
+    background: rgba(72,105,26,1.000);
     color: white;
     letter-spacing: 2px;
     transition: 0.2s all ease-in-out;
@@ -213,12 +213,12 @@ html, body{
 /* Start Kapcsolatfelvétel Form */
 .contact-section .input-error{
     font-size: 12pt;
-    color:  rgba(0,88,37,255);
+    color:  rgba(72,105,26,1.000);
 }
 
 .contact-section .send-input-message{
     font-size: 12pt;
-    color: rgba(0,88,37,255);
+    color: rgba(72,105,26,1.000);
 }
 
 .contact-section h2{
@@ -271,7 +271,7 @@ html, body{
 }
   
 .contact-section em {
-    color: rgba(0,88,37,255);
+    color: rgba(72,105,26,1.000);
     font-weight: bold;
 }
   
@@ -285,7 +285,7 @@ html, body{
 }
   
 .contact-section input:focus, textarea:focus {
-    border: 1px solid rgba(0,88,37,255);
+    border: 1px solid rgba(72,105,26,1.000);
 }
   
 .contact-section textarea {
@@ -295,7 +295,7 @@ html, body{
 
 .contact-section button:hover {
     color: white;
-    border-bottom: 2px solid rgba(0,88,37,255);
+    border-bottom: 2px solid rgba(72,105,26,1.000);
 }
 
 .contact-section .g-recaptcha{
@@ -319,7 +319,7 @@ html, body{
 
 .newsletter-section .send-input-message{
     font-size: 13pt;
-    color: rgba(0,88,37,255);
+    color: rgba(72,105,26,1.000);
 }
 
 .newsletter{
@@ -389,7 +389,7 @@ html, body{
 }
 
 .header h1 {
-    color: rgba(0,88,37,255);
+    color: rgba(72,105,26,1.000);
     font-size: 24px;
 }
 
@@ -533,7 +533,7 @@ html, body{
 }
 
 .bottom-nav-active{
-    color: rgba(0,88,37,255);
+    color: rgba(72,105,26,1.000);
 }
 
 .bottom-nav-icon{
