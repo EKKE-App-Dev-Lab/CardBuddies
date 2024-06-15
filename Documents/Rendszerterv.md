@@ -156,3 +156,7 @@ Az adminisztrátor/eladó jogosultságú felhasználónak lehetősége van az al
 - termékek adatainak módosítása
 - termékek törlése
 
+### 3.3. Üzleti entitások
+
+- futball kártya 
+- megrendelés
