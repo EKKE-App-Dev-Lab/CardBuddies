@@ -30,4 +30,10 @@ CREATE TABLE `product_nationality`
     `nationalityID` bigint(20) NOT NULL
 );
 
+CREATE TABLE `product_type`
+(
+    `productID` bigint(20) NOT NULL,
+    `typeID`    bigint(20) NOT NULL
+);
+
 
