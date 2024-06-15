@@ -291,5 +291,37 @@ VALUES
     ('Walid Abbas', 'UAE', 'UAE National Team', 77, 67, 'Contender Card', 'New', 4800, 'WALID_ABBAS.jpg'),
     ('Zeki Çelik', 'Turkey', 'Turkey National Team', 45, 74, 'Masterclass Card', 'New', 5200, 'ZEKI_CELIK.jpg');
 
+INSERT INTO `nationality` (`p_nat_name`, `p_nat_desc`)
+VALUES ('Qatar', 'Qatari National Team'),
+       ('Morocco', 'Moroccan National Team'),
+       ('Hungary', 'Hungarian National Team'),
+       ('Spain', 'Spanish National Team'),
+       ('Germany', 'German National Team'),
+       ('Denmark', 'Danish National Team'),
+       ('Scotland', 'Scottish National Team'),
+       ('Argentina', 'Argentinian National Team'),
+       ('Costa Rica', 'Costa Rican National Team');
+
+INSERT INTO `nationality` (`p_nat_name`, `p_nat_desc`)
+VALUES ('Austria', 'Austrian National Team'),
+       ('Suriname', 'Surinamese National Team'),
+       ('Belgium', 'Belgian National Team'),
+       ('Netherlands', 'Dutch National Team'),
+       ('Greece', 'Greek National Team'),
+       ('Portugal', 'Portuguese National Team'),
+       ('Croatia', 'Croatian National Team');
+
+INSERT INTO `nationality` (`p_nat_name`, `p_nat_desc`)
+VALUES ('Slovakian', 'Slovakian National Team');
+
+INSERT INTO `nationality` (`nationalityID`, `p_nat_name`, `p_nat_desc`)
+VALUES (19, 'England', 'English National Team'),
+       (20, 'Australia', 'Australian National Team'),
+       (21, 'Serbia', 'Serbian National Team'),
+       (22, 'Slovenia', 'Slovenian National Team'),
+       (23, 'Mexico', 'Mexican National Team');
+
+
+
 
 COMMIT;
