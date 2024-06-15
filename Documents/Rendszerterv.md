@@ -178,21 +178,39 @@ felület.
 
 #### Keresés az eladó termékek között (nem regisztrált felhasználóknak)
 
+![kereses.png](usecases/kereses.png)
+
 #### Regisztráció
+
+![regisztracio.png](usecases/regisztracio.png)
 
 #### Bejelentkezés
 
+![login.png](usecases/login.png)
+
 #### Jelszó helyreállítása
+
+![jelszo_helyreallitas.png](usecases/jelszo_helyreallitas.png)
 
 #### Felhasználói fiók adatainak módosítása
 
+![felhasznaloi_adatok_valtoztatasa.png](usecases/felhasznaloi_adatok_valtoztatasa.png)
+
 #### Regisztrált felhasználói fiók törlése
+
+![fiok_torles.png](usecases/fiok_torles.png)
 
 #### Keresés az eladó termékek között regisztrált felhasználóként
 
+![kereses.png](usecases/kereses.png)
+
 #### Vásárlás
 
+![vasarlas.png](usecases/vasarlas.png)
+
 #### Felhasználó kijelentkezés
+
+![kijelentkezes.png](usecases/kijelentkezes.png)
 
 #### Adminisztrátor új termék felvitele/módosítása/törlése
 
