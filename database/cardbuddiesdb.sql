@@ -43,4 +43,22 @@ CREATE TABLE `types`
     `p_type_desc` text        NOT NULL
 );
 
+CREATE TABLE `user`
+(
+    `userID`       bigint(20)   NOT NULL,
+    `uname`        varchar(50)  NOT NULL,
+    `pass`         varchar(100) NOT NULL,
+    `fname`        varchar(50)  NOT NULL,
+    `lname`        varchar(50)  NOT NULL,
+    `email`        varchar(50)  NOT NULL,
+    `address`      varchar(60)  NOT NULL,
+    `phone`        varchar(8)   NOT NULL,
+    `description`  text         NOT NULL,
+    `vkey`         varchar(100) NOT NULL,
+    `verified`     tinyint(1)   NOT NULL,
+    `isSubscribed` tinyint(1)   NOT NULL,
+    `isAdmin`      tinyint(1)   NOT NULL,
+    `createDate`   timestamp    NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+);
+
 
