@@ -242,7 +242,7 @@
                         </div>
 
                         <div class = "helper-more-about">
-                            <p class="name"><b>MÁGNESES ÁGNES</b></p>
+                            <p class="name"><b>MÁGNES ÁGOSTON</b></p>
                             <p class="hierarchy">SZERKESZTŐ ÉS ARCHIVÁLÓ</p>
                             <p class="description">Be lehet azt piszkálni, pöckölni, tuszkolni...</p>
                         </div>
