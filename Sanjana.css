@@ -457,9 +457,17 @@ img{
 }
 
 .featured__products{
+    /*transition: .3s;*/
+    /*border-radius: 10px 10px 10px 10px;*/
     transition: .3s;
     border-radius: 10px 10px 10px 10px;
-    
+    position: relative;
+    width: 100%; /* or a specific width like 250px */
+    height: 350px; /* set a fixed height */
+    overflow: hidden; /* hide any overflow */
+    background-size: cover; /* ensure the image covers the entire container */
+    background-position: top; /* position the background image from the top */
+
 }
 
 .featured__products:hover{
@@ -467,12 +475,36 @@ img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.089), 0 6px 20px 0 rgba(0, 0, 0, 0.089);
 }
 
-.featured__box{
+.featured__box img{
     position: relative;
     display: flex;
     justify-content: center;
     background-color: white;
+    width: 100%; /* make the image responsive */
+    height: auto; /* keep the aspect ratio */
+    object-fit: cover; /* ensure the image covers the container */
+    object-position: top; /* ensure the top part of the image is visible */
 }
+
+/*!* Container for the football card *!*/
+/*.featured__products {*/
+/*    transition: .3s;*/
+/*    border-radius: 10px 10px 10px 10px;*/
+/*    position: relative;*/
+/*    width: 100%; !* or a specific width like 250px *!*/
+/*    height: 350px; !* set a fixed height *!*/
+/*    overflow: hidden; !* hide any overflow *!*/
+/*    background-size: cover; !* ensure the image covers the entire container *!*/
+/*    background-position: top; !* position the background image from the top *!*/
+/*}*/
+
+/*!* Image within the card *!*/
+/*.featured__box img {*/
+/*    width: 100%; !* make the image responsive *!*/
+/*    height: auto; !* keep the aspect ratio *!*/
+/*    object-fit: cover; !* ensure the image covers the container *!*/
+/*    object-position: top; !* ensure the top part of the image is visible *!*/
+/*}*/
 
 .featured__new{
     position: absolute;
