@@ -44,3 +44,35 @@ Felhasználói szintek:
 - regisztrált felhasználók láthatják a terméklistát és az árakat is, valamint vásárolhatnak
 - eladóként elérhető a termék adminisztrációs felület is
 - eladó tudja a felhasználókat is adott esetben törölni
+
+## Használati esetek
+
+Szereplők:
+
+Eladó
+
+Vevő
+
+Látogató
+
+Tevékenységek:
+Eladó:
+
+- Jogosultsága alapbeállítás a rendszerben
+- Bejelentkezés eladóként, mindenhez hozzáfér
+- Felhasználókat tud törölni
+- Új termékeket tud a terméklistához hozzáadni
+- Meglévő termékeket tud a terméklistában módosítani
+- Meglévő terméket tud a terméklistáról törölni
+
+Vevő:
+
+- Regisztráció
+- Bejelentkezés vevőként
+- Termékek megtekintése
+- Vásárlói kosárhoz termék hozzáadása
+- Termékek módosítása a kosárban
+- Termékek eltávolítása a kosárból
+- Megrendelés véglegesítése
+- Elfelejtett jelszó esetén új kérése
+- Jelszó változtatása
