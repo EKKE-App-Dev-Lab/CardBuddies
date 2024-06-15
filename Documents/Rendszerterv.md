@@ -293,4 +293,9 @@ Az alábbi ábra mutatja az adatbázis felépítését:
 
 ![img.png](adatbazis.png)
 
+## 10. Tesztterv
+
+A tesztelés során felmerült hibákra a Trello-ban hibajegyeket rögzítünk a tesztszámnak megfelelően. A hibajavítás
+folyamatos, de a teszt esetek újratesztelése minden egyes tesztciklusban megtörétnik, biztosítva, hogy az adott
+hibajavítás nem okoz máshol hibát, ami korábban működött.
 
