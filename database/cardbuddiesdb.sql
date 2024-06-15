@@ -87,3 +87,13 @@ CREATE TABLE `userorder`
     `status`     text         NOT NULL,
     `createDate` timestamp    NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 );
+
+CREATE TABLE `orderitem`
+(
+    `orderItemID` bigint(20)  NOT NULL,
+    `productID`   bigint(20)  NOT NULL,
+    `orderID`     bigint(20)  NOT NULL,
+    `price`       float       NOT NULL,
+    `quantity`    smallint(6) NOT NULL,
+    `createDate`  timestamp   NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+);
