@@ -158,7 +158,7 @@ Az adminisztrátor/eladó jogosultságú felhasználónak lehetősége van az al
 
 ### 3.3. Üzleti entitások
 
-- futball kártya 
+- futball kártya
 - megrendelés
 
 ## 4. Követelmények
@@ -178,39 +178,21 @@ felület.
 
 #### Keresés az eladó termékek között (nem regisztrált felhasználóknak)
 
-
-
 #### Regisztráció
-
-
 
 #### Bejelentkezés
 
-
-
 #### Jelszó helyreállítása
-
-
 
 #### Felhasználói fiók adatainak módosítása
 
-
-
 #### Regisztrált felhasználói fiók törlése
-
-
 
 #### Keresés az eladó termékek között regisztrált felhasználóként
 
-
-
 #### Vásárlás
 
-
-
 #### Felhasználó kijelentkezés
-
-
 
 #### Adminisztrátor új termék felvitele/módosítása/törlése
 
@@ -242,4 +224,36 @@ Láblécben is találhatóak további menüpontok, amelyek minden eszközön el�
 - Adatkezelési tájékoztató
 - Felhasználói feltételek
 
+### 5.4 Képernyőtervek
+
+A CardBuddies webshop tervezési folyamata azzal kezdődött, hogy alaposan feltérképeztük a fociskártyák piacát,
+figyelembe véve az európa bajnokság aktualitását és a célcsoport igényeit. A kutatás eredményeként kialakítottuk a
+tervezés alapelveit, melyek közé tartozott a modern és fiatalos dizájn hangsúlyozása.
+
+A design fázisában elsődleges szempontként kezeltük az élénk és sportos színpaletta használatát, amely tükrözi a
+CardBuddies dinamizmusát és innovatív hozzáállását. Az olvasható betűtípusok és az áttekinthető elrendezés kialakítása
+mellett a könnyen kezelhető és átlátható felületre helyeztük a hangsúlyt, hogy a látogatók gyorsan és egyszerűen
+megtalálhassák a keresett termékeket.
+
+A funkcionalitás és esztétika szorosan összefonódott a tervezési folyamat minden szakaszában. A webshop felépítésénél
+odafigyeltünk arra, hogy az oldalak ne csak esztétikusak, hanem praktikusak is legyenek. Az egyszerű vásárlási folyamat
+és a logikus információelrendezés garantálják a zökkenőmentes felhasználói élményt.
+
+Így született meg a CardBuddies webshop, amely nem csupán egy online felület, hanem inspiráló tér is. A forma és a
+funkcionalitás harmonikusan egyesül ebben a modern, fiatalos és könnyen kezelhető webshopban, létrehozva ezzel egy
+kivételes vásárlási élményt a látogatók számára.
+
+Főbb oldalak:
+
+* **index.php**, amely minden felhasználó számára először jelenik meg.
+
+* **products.php**, regisztrált és nem regisztrált felhasználók is ezen az oldalon böngészhetik a webshop kínálatát. A
+  kártyák rendezése és nemzetiség szerinti szűrése is eléhető funkció.
+
+* **makeyourcard.php**, amely egy páratlan szolgáltatást lehetőségét mutatja be a vásárló számára
+
+* **about.php**, a csapat tagjait és a céget bemutató oldal
+
+* **contact.php**, a kapcsolatfelvétel részleteinek bemutatására
+* **cart.php**, a bejelentkezett felhasználó kosár tartalmának megjelenítéséhez
 
