@@ -166,3 +166,80 @@ Az adminisztrátor/eladó jogosultságú felhasználónak lehetősége van az al
 Egy PHP-t futtatni képes webszerver MySQL adatbázissal, valamint e-mail küldéssel a regisztrációhoz, egy modern böngésző
 felület.
 
+## 5. Funkcionális terv
+
+### 5.1 Rendszerszereplők
+
+- nem regisztrált böngésző
+- regisztrált vásárló
+- eladó/adminisztrátor
+
+### 5.2 Rendszerhasználati esetek
+
+#### Keresés az eladó termékek között (nem regisztrált felhasználóknak)
+
+
+
+#### Regisztráció
+
+
+
+#### Bejelentkezés
+
+
+
+#### Jelszó helyreállítása
+
+
+
+#### Felhasználói fiók adatainak módosítása
+
+
+
+#### Regisztrált felhasználói fiók törlése
+
+
+
+#### Keresés az eladó termékek között regisztrált felhasználóként
+
+
+
+#### Vásárlás
+
+
+
+#### Felhasználó kijelentkezés
+
+
+
+#### Adminisztrátor új termék felvitele/módosítása/törlése
+
+[//]: # (TODO)
+
+### 5.3 Menühierarchiák
+
+A menürendszert egy, a weboldal fejléce alatt található vízszintes, lenyíló menüket is tartalmazó navigációs sávban
+építettük fel.
+
+A menünek kétféle megjelenése van a megtekintő eszköz felbontásának függvényében, de a két menürendszer csak kinézetben
+tér el egymástól.
+
+A rendszerbe való bejelentkezés előtt elérhető oldalak a menüből:
+
+- Kezdőlap
+- Termékek
+- Készíts saját fociskártyát
+- Rólunk
+- Kapcsolatfelvétel
+- Bejelentkezés, csak ikonnal jelezve
+
+A rendszerbe való bejelentkezés után elérhető oldalak a menüből:
+
+- Bevásárolókosár, csak ikonnal jelezve. Ezen látszik az is, hogy hány terméket tartalmaz a kosár
+
+Láblécben is találhatóak további menüpontok, amelyek minden eszközön elérhetőek, ezek a következőek:
+
+- Adatkezelési tájékoztató
+- Felhasználói feltételek
+
+
