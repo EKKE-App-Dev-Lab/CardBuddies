@@ -38,7 +38,7 @@ require 'PHPMailer/src/SMTP.php';
             $order = "<br>Order Number: " . test_input($orderNumber) . "<br>";
         }
 
-        $to = "CardBuddies.hungary@gmail.com";
+        $to = "carbdubbies@gmail.com";
         $subject = "Üzenet - küldte $name";
         $message = "<b>Üzenet: $message</b><br>Telefonszám: <b>$tel</b><br><b>Rendelés: $order</b>";
         $altMessage = $message . $tel . $order;
@@ -55,12 +55,12 @@ require 'PHPMailer/src/SMTP.php';
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'CardBuddies.hungary@gmail.com';
-            $mail->Password = 'wrlbddenzoendmbz';
+            $mail->Username = 'carbdubbies@gmail.com';
+            $mail->Password = 'bdnrgqeozvrklcbd';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
 
-            $mail->setFrom('CardBuddies.hungary@gmail.com', 'CardBuddies');
+            $mail->setFrom('carbdubbies@gmail.com', 'CardBuddies');
             $mail->addAddress($to);
 
             $mail->isHTML(true);
