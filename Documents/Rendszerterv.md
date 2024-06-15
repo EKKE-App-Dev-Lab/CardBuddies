@@ -41,3 +41,12 @@ orvosoljuk, és itt követjük nyomon a kódfejlesztés előrehaladását.
 
 ### 3.1 Üzleti szereplők
 
+A rendszert regisztrációval nem rendelkező felhasználók (látogatók) is eredményesen használhatják; számos statikus
+tartalom elérhető számukra, amelyek révén információkat szerezhetnek az eladókról, általuk kínált szolgáltatásokról és
+termékekről. Emellett kapcsolatfelvételi lehetőség is adódik számukra.
+
+A regisztrált felhasználók, akiket vásárlóknak vagy eladóknak tekintünk, képesek online kiválasztani és megvásárolni a kívánt terméket, vagy eladásra kínálni saját kártyáikat. Ezt követően lehetőségük van a kifizetésre, valamint a kiszállítás a megadott címre történik.
+
+Az adminisztrátor vagy a super-user jogosultságokkal rendelkező felhasználó figyelemmel követheti a megrendeléseket,
+frissítheti az online árukészletét, és naprakész információkat oszthat meg a szolgáltatásával kapcsolatban.
+
