@@ -35,3 +35,12 @@ Rendezhető, kategorizálható terméklista.
 Egyszerű vásárlási folyamat.
 
 Fenntartási költség minimalizálás.
+
+## Követelménylista
+
+Felhasználói szintek:
+
+- látogatóként a terméklista nem elérhető
+- regisztrált felhasználók láthatják a terméklistát és az árakat is, valamint vásárolhatnak
+- eladóként elérhető a termék adminisztrációs felület is
+- eladó tudja a felhasználókat is adott esetben törölni
