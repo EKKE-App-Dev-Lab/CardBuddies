@@ -107,3 +107,79 @@ CREATE TABLE `transaction`
     `status`        text       NOT NULL,
     `createDate`    timestamp  NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 );
+
+ALTER TABLE `cart`
+    ADD PRIMARY KEY (`cartID`),
+    ADD KEY `userID` (`userID`);
+
+ALTER TABLE `cartitem`
+    ADD PRIMARY KEY (`cartItemID`),
+    ADD KEY `1_Cart_Zero-Or-More_CartItems` (`cartID`),
+    ADD KEY `1_Product_Many_CartItems` (`productID`);
+
+ALTER TABLE `nationality`
+    ADD PRIMARY KEY (`nationalityID`);
+
+ALTER TABLE `orderitem`
+    ADD PRIMARY KEY (`orderItemID`),
+    ADD KEY `1_Order_Many_OrderItems` (`orderID`),
+    ADD KEY `1_Product_Many_OrderItems` (`productID`);
+
+ALTER TABLE `product_nationality`
+    ADD KEY `1_Product_Many_Categories` (`productID`),
+    ADD KEY `1_Category_Many_Products` (`nationalityID`);
+
+ALTER TABLE `product_type`
+    ADD KEY `1_Product_Many_Types` (`productID`),
+    ADD KEY `1_Type_Many_Products` (`typeID`);
+
+ALTER TABLE `transaction`
+    ADD PRIMARY KEY (`tranID`),
+    ADD KEY `1_Order_Many_Transactions` (`orderID`),
+    ADD KEY `1_User_Many_Transactions` (`userID`);
+
+ALTER TABLE `types`
+    ADD PRIMARY KEY (`typeID`);
+
+ALTER TABLE `user`
+    ADD PRIMARY KEY (`userID`);
+
+ALTER TABLE `userorder`
+    ADD PRIMARY KEY (`orderID`),
+    ADD KEY `1_User_Many_Orders` (`userID`);
+
+ALTER TABLE `cart`
+    MODIFY `cartID` bigint(20) NOT NULL AUTO_INCREMENT,
+    AUTO_INCREMENT = 1;
+
+ALTER TABLE `cartitem`
+    MODIFY `cartItemID` bigint(20) NOT NULL AUTO_INCREMENT,
+    AUTO_INCREMENT = 1;
+
+ALTER TABLE `nationality`
+    MODIFY `nationalityID` bigint(20) NOT NULL AUTO_INCREMENT,
+    AUTO_INCREMENT = 1;
+
+ALTER TABLE `orderitem`
+    MODIFY `orderItemID` bigint(20) NOT NULL AUTO_INCREMENT,
+    AUTO_INCREMENT = 1;
+
+ALTER TABLE `transaction`
+    MODIFY `tranID` bigint(20) NOT NULL AUTO_INCREMENT,
+    AUTO_INCREMENT = 1;
+
+ALTER TABLE `types`
+    MODIFY `typeID` bigint(20) NOT NULL AUTO_INCREMENT,
+    AUTO_INCREMENT = 1;
+
+ALTER TABLE `user`
+    MODIFY `userID` bigint(20) NOT NULL AUTO_INCREMENT,
+    AUTO_INCREMENT = 1;
+
+ALTER TABLE `userorder`
+    MODIFY `orderID` bigint(20) NOT NULL AUTO_INCREMENT,
+    AUTO_INCREMENT = 1;
+
+
+
+COMMIT;
