@@ -76,3 +76,14 @@ CREATE TABLE `cartitem`
     `quantity`   smallint(6) NOT NULL,
     `createDate` timestamp   NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 );
+
+CREATE TABLE `userorder`
+(
+    `orderID`    bigint(20)   NOT NULL,
+    `userID`     bigint(20)   NOT NULL,
+    `total`      float        NOT NULL,
+    `address`    varchar(100) NOT NULL,
+    `phone`      varchar(8)   NOT NULL,
+    `status`     text         NOT NULL,
+    `createDate` timestamp    NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+);
