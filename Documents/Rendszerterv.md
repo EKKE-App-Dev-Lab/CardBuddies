@@ -433,4 +433,11 @@ Webtárhelyre való telepítés esetén a következőkre lesz szükség:
 - Egy program, amivel FTP kapcsolaton keresztül feltölthetők a webalkalmazás fájljai.
 - Egy modern böngésző.
 
+## 12. Karbantartási terv
+
+A platform nem igényel jelentős karbantartást. Főként az adatok és az adatbázis szerver felügyeletével kapcsolatos
+teendők kapcsolódhatnak a karbantartáshoz.
+Bejövő adatbázis kéréseket monitorozni kell és esetenként optimalizálni, amennyiben nagy a terheltség.
+Funkcionalitás bővítése esetén merülhetnek fel problémák, ezen problémák elkerülésének érdekében bővítés esetén precízen
+kell megtervezni az új verziókat.
 
