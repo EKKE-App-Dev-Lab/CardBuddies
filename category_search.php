@@ -28,7 +28,7 @@ while ($row_product = mysqli_fetch_assoc($run_get_product_by_cat_id)) {
                             <div class="featured__data">';
 
     $product_id = $row_product['productID'];
-    echo '<a href="product.php?product_id=' . $product_id . ' " class="product__name" id="product__name"style="text-decoration: none;">' . $row_product['csapat'] . '</a></br>
+    echo '<a href="product.php?product_id=' . $product_id . ' " class="product__name" id="product__name"style="text-decoration: none;">' . $row_product['jatekosnev'] . '</a></br>
                             <span class="featured__price"> ' . $row_product['ar'] . ' Ft</span>
                                 
                             </div>

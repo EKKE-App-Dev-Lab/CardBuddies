@@ -23,7 +23,7 @@ if ($check > 0 && $p_type != 1) {
                            <a href="product.php?product_id=' . $product_id . '">
                            <a href="product.php?product_id=' . $product_id . '" class=""><i class="bx bxs-cart-add bx-tada-hover featured__new_cart"></i></a>
                            <a href="product.php?product_id=' . $product_id . '">
-                               <img src="' . $row['boritokep'] . ' "  class="featured__img avoid__clicks" 
+                               <img src="' . $row['kartyakep'] . ' "  class="featured__img avoid__clicks" 
                                style="
                                    object-fit: cover;
                                    width:  232px;
@@ -36,7 +36,7 @@ if ($check > 0 && $p_type != 1) {
         $product_id = $row['productID'];
 
         echo '<a href="product.php?product_id=' . $product_id . '" style="text-decoration: none;">
-                           <h4 class="product__name" id="product__name">' . $row['albumcim'] . '</h4>
+                           <h4 class="product__name" id="product__name">' . $row['jatekosnev'] . '</h4>
                            </a> ';
 
         echo '<span class="featured__price">HUF ' . $row['ar'] . '</span>
@@ -51,7 +51,7 @@ if ($check > 0 && $p_type != 1) {
     if ($check > 0) {
         while ($new_row = mysqli_fetch_assoc($result_new)) {
             echo '  <div class="new__box">
-                        <img src="'.$new_row['boritokep'] .' " class="new__img" />
+                        <img src="'.$new_row['kartyakep'] .' " class="new__img" />
                         <div class="new__link">
                             <a href="product.php?product_id='.$new_row['productID'] .'" class="button"> TERMÉK MEGTEKINTÉSE</a>
                         </div>

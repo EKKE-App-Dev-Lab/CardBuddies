@@ -53,7 +53,7 @@ $Q_fetch_categories = "SELECT * FROM nationality";
             </div>
 
             <div class="dropdown col-auto">
-                <button class="dropbtn button" id="cat-but">Kategóriák &nbsp<i class='bx bxs-down-arrow drop-arrow'></i>
+                <button class="dropbtn button" id="cat-but">Nemzetiségek &nbsp<i class='bx bxs-down-arrow drop-arrow'></i>
                 </button>
                 <div class="dropdown-content">
                     <?php
@@ -118,7 +118,7 @@ $Q_fetch_categories = "SELECT * FROM nationality";
             xhttp.send();
             console.log('sent');
 
-            document.getElementById('small_title').innerHTML = 'KATEGÓRIA';
+            document.getElementById('small_title').innerHTML = 'Nemzetiség';
             document.getElementById('big_title').innerHTML = cat_name;
 
         }

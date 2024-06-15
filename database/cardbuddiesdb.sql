@@ -18,8 +18,6 @@ CREATE TABLE `products`
 );
 
 
-
-
 CREATE TABLE `nationality`
 (
     `nationalityID` bigint(20)  NOT NULL,
@@ -42,12 +40,6 @@ CREATE TABLE `product_type`
     `typeID`    bigint(20) NOT NULL
 );
 
-CREATE TABLE `types`
-(
-    `typeID`      bigint(20)  NOT NULL,
-    `p_type_name` varchar(30) NOT NULL,
-    `p_type_desc` text        NOT NULL
-);
 
 CREATE TABLE `user`
 (
@@ -144,8 +136,7 @@ ALTER TABLE `transaction`
     ADD KEY `1_Order_Many_Transactions` (`orderID`),
     ADD KEY `1_User_Many_Transactions` (`userID`);
 
-ALTER TABLE `types`
-    ADD PRIMARY KEY (`typeID`);
+
 
 ALTER TABLE `user`
     ADD PRIMARY KEY (`userID`);
@@ -174,9 +165,6 @@ ALTER TABLE `transaction`
     MODIFY `tranID` bigint(20) NOT NULL AUTO_INCREMENT,
     AUTO_INCREMENT = 1;
 
-ALTER TABLE `types`
-    MODIFY `typeID` bigint(20) NOT NULL AUTO_INCREMENT,
-    AUTO_INCREMENT = 1;
 
 ALTER TABLE `user`
     MODIFY `userID` bigint(20) NOT NULL AUTO_INCREMENT,
@@ -198,9 +186,7 @@ ALTER TABLE `product_nationality`
     ADD CONSTRAINT `1_Category_Many_Products` FOREIGN KEY (`nationalityID`) REFERENCES `nationality` (`nationalityID`) ON DELETE CASCADE ON UPDATE CASCADE,
     ADD CONSTRAINT `1_Product_Many_Categories` FOREIGN KEY (`productID`) REFERENCES `products` (`productID`) ON DELETE CASCADE ON UPDATE CASCADE;
 
-ALTER TABLE `product_type`
-    ADD CONSTRAINT `1_Product_Many_Types` FOREIGN KEY (`productID`) REFERENCES `products` (`productID`) ON DELETE CASCADE ON UPDATE CASCADE,
-    ADD CONSTRAINT `1_Type_Many_Products` FOREIGN KEY (`typeID`) REFERENCES `types` (`typeID`) ON DELETE CASCADE ON UPDATE CASCADE;
+
 
 ALTER TABLE `transaction`
     ADD CONSTRAINT `1_Order_Many_Transactions` FOREIGN KEY (`orderID`) REFERENCES `userorder` (`orderID`) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -214,82 +200,112 @@ ALTER TABLE `cart`
 
 INSERT INTO `products` (`jatekosnev`, `nemzetiseg`, `csapat`, `tamadopont`, `vedopont`, `leiras`, `allapot`, `ar`,
                         `kartyakep`)
-VALUES ('Abdulkarim Hassan', 'Qatar', 'QAT', 85, 71, 'Fans\' Favourite', 'New', 230, 'ABDULKARIM HASSAN.jpg'),
-       ('Achraf Hakimi', 'Morocco', 'MAR', 85, 63, 'Hero', 'New', 228, 'ACHRAF HAKIMI.jpg'),
-       ('Ádám Nagy', 'Hungary', 'HUN', 54, 67, 'Experience', 'New', 40, 'ÁDÁM NAGY.jpg'),
-       ('Alejandro Balde', 'Spain', 'ESP', 71, 80, 'Shining Star', 'New', 70, 'ALEJANDRO BALDE.jpg'),
-       ('Alfredo Morales', 'Germany', 'GER', 51, 67, 'Mittelfeld', 'New', 45, 'ALFREDO MORALES.jpg'),
-       ('Andreas Christensen', 'Denmark', 'DEN', 94, 83, 'Titan', 'New', 262, 'ANDREAS CHRISTENSEN.jpg'),
-       ('Andrew Robertson', 'Scotland', 'SCO', 73, 84, 'Captain', 'New', 80, 'ANDREW ROBERTSON.jpg'),
-       ('Augusto Batalla', 'Argentina', 'ARG', 84, 59, 'Team Mate', 'New', 65, 'AUGUSTO BATALLA.jpg'),
-       ('Bryan Ruiz', 'Costa Rica', 'CRC', 68, 75, 'Experience', 'New', 75, 'BRYAN RUIZ.jpg'),
-       ('Christian Eriksen', 'Denmark', 'DEN', 79, 60, 'Top Scorer', 'New', 70, 'CHRISTIAN ERIKSEN.jpg');
+VALUES ('Abdulkarim Hassan', 'Qatar', 'QAT', 85, 71, 'Fans\' Favourite', 'New', 230,
+        'Assets\\images\\products\\ABDULKARIM_HASSAN.jpg'),
+       ('Achraf Hakimi', 'Morocco', 'MAR', 85, 63, 'Hero', 'New', 228, 'Assets\\images\\products\\ACHRAF_HAKIMI.jpg'),
+       ('Ádám Nagy', 'Hungary', 'HUN', 54, 67, 'Experience', 'New', 40, 'Assets\\images\\products\\ADAM_NAGY.jpg'),
+       ('Alejandro Balde', 'Spain', 'ESP', 71, 80, 'Shining Star', 'New', 70,
+        'Assets\\images\\products\\ALEJANDRO_BALDE.jpg'),
+       ('Alfredo Morales', 'Germany', 'GER', 51, 67, 'Mittelfeld', 'New', 45,
+        'Assets\\images\\products\\ALFREDO_MORALES.jpg'),
+       ('Andreas Christensen', 'Denmark', 'DEN', 94, 83, 'Titan', 'New', 262,
+        'Assets\\images\\products\\ANDREAS_CHRISTENSEN.jpg'),
+       ('Andrew Robertson', 'Scotland', 'SCO', 73, 84, 'Captain', 'New', 80,
+        'Assets\\images\\products\\ANDREW_ROBERTSON.jpg'),
+       ('Augusto Batalla', 'Argentina', 'ARG', 84, 59, 'Team Mate', 'New', 65,
+        'Assets\\images\\products\\AUGUSTO_BATALLA.jpg'),
+       ('Bryan Ruiz', 'Costa Rica', 'CRC', 68, 75, 'Experience', 'New', 75, 'Assets\\images\\products\\BRYAN_RUIZ.jpg'),
+       ('Christian Eriksen', 'Denmark', 'DEN', 79, 60, 'Top Scorer', 'New', 70,
+        'Assets\\images\\products\\CHRISTIAN_ERIKSEN.jpg');
 
 INSERT INTO `products` (`jatekosnev`, `nemzetiseg`, `csapat`, `tamadopont`, `vedopont`, `leiras`, `allapot`, `ar`,
                         `kartyakep`)
-VALUES ('David Alaba', 'Austria', 'AUT', 70, 84, 'Captain', 'New', 80, 'DAVID ALABA.jpg'),
-       ('Diego Biseswar', 'Suriname', 'PAOK', 70, 86, 'Limited Edition', 'New', 232, 'DIEGO BISESWAR.jpg'),
-       ('Eden Hazard', 'Belgium', 'BEL', 90, 98, 'Game Changer', 'New', 282, 'EDEN HAZARD.jpg'),
-       ('Éver Banega', 'Argentina', 'Valencia', 78, 79, 'Champions League', 'New', 80, 'ÉVER BANEGA.jpg'),
-       ('Georginio Wijnaldum', 'Netherlands', 'NED', 77, 74, 'Experience', 'New', 65, 'GEORGINIO WIJNALDUM.jpg'),
-       ('Giorgos Masouras', 'Greece', 'Olympiacos', 83, 95, 'Game Changer', 'New', 247, 'GIORGOS MASOURAS.jpg'),
-       ('Goncalo Ramos', 'Portugal', 'POR', 78, 37, 'Debutant', 'New', 65, 'GONCALO RAMOS.jpg'),
-       ('Harry Kane', 'England', 'ENG', 88, 55, 'Captain', 'New', 90, 'HARRY KANE.jpg'),
-       ('Ivan Perisic', 'Croatia', 'Inter Milan', 76, 65, 'Team Mate', 'New', 225, 'IVAN PERISIC.jpg'),
-       ('Jack Grealish', 'England', 'ENG', 81, 41, 'Playmaker', 'New', 75, 'JACK GREALISH.jpg');
+VALUES ('David Alaba', 'Austria', 'AUT', 70, 84, 'Captain', 'New', 80, 'Assets\\images\\products\\DAVID_ALABA.jpg'),
+       ('Diego Biseswar', 'Suriname', 'PAOK', 70, 86, 'Limited Edition', 'New', 232,
+        'Assets\\images\\products\\DIEGO_BISESWAR.jpg'),
+       ('Eden Hazard', 'Belgium', 'BEL', 90, 98, 'Game Changer', 'New', 282, 'Assets\\images\\products\\EDEN_HAZARD.jpg'),
+       ('Éver Banega', 'Argentina', 'Valencia', 78, 79, 'Champions League', 'New', 80,
+        'Assets\\images\\products\\EVER_BANEGA.jpg'),
+       ('Georginio Wijnaldum', 'Netherlands', 'NED', 77, 74, 'Experience', 'New', 65,
+        'Assets\\images\\products\\GEORGINIO_WIJNALDUM.jpg'),
+       ('Giorgos Masouras', 'Greece', 'Olympiacos', 83, 95, 'Game Changer', 'New', 247,
+        'Assets\\images\\products\\GIORGOS_MASOURAS.jpg'),
+       ('Goncalo Ramos', 'Portugal', 'POR', 78, 37, 'Debutant', 'New', 65, 'Assets\\images\\products\\GONCALO_RAMOS.jpg'),
+       ('Harry Kane', 'England', 'ENG', 88, 55, 'Captain', 'New', 90, 'Assets\\images\\products\\HARRY_KANE.jpg'),
+       ('Ivan Perisic', 'Croatia', 'Inter Milan', 76, 65, 'Team Mate', 'New', 225,
+        'Assets\\images\\products\\IVAN_PERISIC.jpg'),
+       ('Jack Grealish', 'England', 'ENG', 81, 41, 'Playmaker', 'New', 75, 'Assets\\images\\products\\JACK_GREALISH.jpg');
 
 INSERT INTO `products` (`jatekosnev`, `nemzetiseg`, `csapat`, `tamadopont`, `vedopont`, `leiras`, `allapot`, `ar`,
                         `kartyakep`)
-VALUES ('João Félix', 'Portuguese', 'Atletico Madrid', 83, 42, 'STYLER', 'FOR', 8000000, 'JOÃO FÉLIX.jpg'),
-       ('João Moutinho', 'Portuguese', 'Portugal', 65, 72, 'HERO', 'CORE', 82, 'JOÃO MOUTINHO.jpg'),
-       ('Julian Brandt', 'German', 'Borussia Dortmund', 65, 74, 'TEAM MATE', 'CORE', 220, 'JULIAN BRANDT.jpg'),
-       ('Juraj Kucka', 'Slovakian', 'Slovakia', 70, 73, 'EXPERIENCE', '', 5500000, 'JURAJ KUCKA.jpg'),
-       ('Kasper Schmeichel', 'Danish', 'Denmark', 9, 75, 'MASTERCLASS', '', 6000000, 'KASPER SCHMEICHEL.jpg'),
-       ('Kenny Miller', 'Scottish', 'Rangers', 50, 83, '', '', 0, 'KENNY MILLER.jpg'),
-       ('Luís Figo', 'Portuguese', 'Portugal', 85, 72, 'LEGEND', '', 8500000, 'LUÍS FIGO.jpg'),
-       ('Luka Modric', 'Croatian', 'Croatia', 72, 88, 'LIMITED EDITION', '', 0, 'LUKA MODRIC.jpg'),
-       ('Marcelo Brozovic', 'Croatian', 'Croatia', 73, 79, 'MASTERCLASS', '', 7000000, 'MARCELO BROZOVIC.jpg'),
-       ('Marcel Sabitzer', 'Austrian', 'Austria', 86, 0, 'LIMITED EDITION', '', 0, 'MARCEL SABITZER.jpg');
+VALUES ('João Félix', 'Portuguese', 'Atletico Madrid', 83, 42, 'STYLER', 'FOR', 8000000,
+        'Assets\\images\\products\\JOAO_FELIX.jpg'),
+       ('João Moutinho', 'Portuguese', 'Portugal', 65, 72, 'HERO', 'CORE', 82,
+        'Assets\\images\\products\\JOAO_MOUTINHO.jpg'),
+       ('Julian Brandt', 'German', 'Borussia Dortmund', 65, 74, 'TEAM MATE', 'CORE', 220,
+        'Assets\\images\\products\\JULIAN_BRANDT.jpg'),
+       ('Juraj Kucka', 'Slovakian', 'Slovakia', 70, 73, 'EXPERIENCE', '', 5500000,
+        'Assets\\images\\products\\JURAJ_KUCKA.jpg'),
+       ('Kasper Schmeichel', 'Danish', 'Denmark', 9, 75, 'MASTERCLASS', '', 6000000,
+        'Assets\\images\\products\\KASPER_SCHMEICHEL.jpg'),
+       ('Kenny Miller', 'Scottish', 'Rangers', 50, 83, '', '', 0, 'Assets\\images\\products\\KENNY_MILLER.jpg'),
+       ('Luís Figo', 'Portuguese', 'Portugal', 85, 72, 'LEGEND', '', 8500000, 'Assets\\images\\products\\LUIS_FIGO.jpg'),
+       ('Luka Modric', 'Croatian', 'Croatia', 72, 88, 'LIMITED EDITION', '', 0,
+        'Assets\\images\\products\\LUKA_MODRIC.jpg'),
+       ('Marcelo Brozovic', 'Croatian', 'Croatia', 73, 79, 'MASTERCLASS', '', 7000000,
+        'Assets\\images\\products\\MARCELO_BROZOVIC.jpg'),
+       ('Marcel Sabitzer', 'Austrian', 'Austria', 86, 0, 'LIMITED EDITION', '', 0,
+        'Assets\\images\\products\\MARCEL_SABITZER.jpg');
 
 INSERT INTO products (jatekosnev, nemzetiseg, csapat, tamadopont, vedopont, leiras, allapot, ar, kartyakep)
-VALUES ('Marcus Rashford', 'England', 'Manchester United', 82, 62, 'Team Mate', 75, 100, 'MARCUS_RASHFORD.jpg'),
-       ('Mark Uth', 'Germany', 'Schalke 04', 81, 60, 'Team Mate', 70, 100, 'MARK_UTH.jpg'),
-       ('Mason Greenwood', 'England', 'Manchester United', 80, 66, 'Team Mate', 71, 100, 'MASON_GREENWOOD.jpg'),
-       ('Mathew Ryan', 'Australia', 'Unknown', 64, 64, 'Contender', 79, 100, 'MATHEW_RYAN.jpg'),
-       ('Matija Nastasic', 'Serbia', 'Schalke 04', 82, 64, 'Team Mate', 59, 100, 'MATIJA_NASTASIC.jpg'),
-       ('Memphis Depay', 'Netherlands', 'Netherlands', 80, 32, 'Top Scorer', 100, 100, 'MEMPHIS_DEPAY.jpg'),
-       ('Miha Zajc', 'Slovenia', 'Unknown', 68, 63, 'Top Scorer', 100, 100, 'MIHA_ZAJC.jpg'),
-       ('Moises Munoz', 'Mexico', 'Club America', 77, 65, 'Team Mate', 46, 100, 'MOISES_MUNOZ.jpg'),
-       ('Pepe', 'Portugal', 'Portugal', 32, 76, 'Experience', 100, 100, 'PEPE.jpg'),
+VALUES ('Marcus Rashford', 'England', 'Manchester United', 82, 62, 'Team Mate', 75, 100,
+        'Assets\\images\\products\\MARCUS_RASHFORD.jpg'),
+       ('Mark Uth', 'Germany', 'Schalke 04', 81, 60, 'Team Mate', 70, 100, 'Assets\\images\\products\\MARK_UTH.jpg'),
+       ('Mason Greenwood', 'England', 'Manchester United', 80, 66, 'Team Mate', 71, 100,
+        'Assets\\images\\products\\MASON_GREENWOOD.jpg'),
+       ('Mathew Ryan', 'Australia', 'Unknown', 64, 64, 'Contender', 79, 100, 'Assets\\images\\products\\MATHEW_RYAN.jpg'),
+       ('Matija Nastasic', 'Serbia', 'Schalke 04', 82, 64, 'Team Mate', 59, 100,
+        'Assets\\images\\products\\MATIJA_NASTASIC.jpg'),
+       ('Memphis Depay', 'Netherlands', 'Netherlands', 80, 32, 'Top Scorer', 100, 100,
+        'Assets\\images\\products\\MEMPHIS_DEPAY.jpg'),
+       ('Miha Zajc', 'Slovenia', 'Unknown', 68, 63, 'Top Scorer', 100, 100, 'Assets\\images\\products\\MIHA_ZAJC.jpg'),
+       ('Moises Munoz', 'Mexico', 'Club America', 77, 65, 'Team Mate', 46, 100,
+        'Assets\\images\\products\\MOISES_MUNOZ.jpg'),
+       ('Pepe', 'Portugal', 'Portugal', 32, 76, 'Experience', 100, 100, 'Assets\\images\\products\\PEPE.jpg'),
        ('Raphael Guerreiro', 'Portugal', 'Borussia Dortmund', 70, 76, 'Fans\' Favourite', 85, 100,
-        'RAPHAEL_GUERREIRO.jpg');
+        'Assets\\images\\products\\RAPHAEL_GUERREIRO.jpg');
 
 INSERT INTO products (jatekosnev, nemzetiseg, csapat, tamadopont, vedopont, leiras, allapot, ar, kartyakep)
 VALUES ('Rio Ferdinand', 'England', 'Manchester United', 89, 86, 'Champions League Card', 'New', 5000,
-        'RIO_FERDINAND.jpg'),
+        'Assets\\images\\products\\RIO_FERDINAND.jpg'),
        ('Robin van Persie', 'Netherlands', 'Netherlands National Team', 87, 41, 'Legend Card', 'New', 6000,
-        'ROBIN_VAN_PERSIE.jpg'),
+        'Assets\\images\\products\\ROBIN_VAN_PERSIE.jpg'),
        ('Rodrigo de Paul', 'Argentina', 'Argentina National Team', 83, 87, 'Magician Card', 'New', 5500,
-        'RODRIGO_DE_PAUL.jpg'),
+        'Assets\\images\\products\\RODRIGO_DE_PAUL.jpg'),
        ('Roland Sallai', 'Hungary', 'Hungary National Team', 71, 54, 'Top Scorer Card', 'New', 4000,
-        'ROLAND_SALLAI.jpg'),
-       ('Rony Lopes', 'Portugal', 'Olympiacos', 79, 62, 'Team Mate Card', 'New', 4500, 'RONY_LOPES.jpg'),
+        'Assets\\images\\products\\ROLAND_SALLAI.jpg'),
+       ('Rony Lopes', 'Portugal', 'Olympiacos', 79, 62, 'Team Mate Card', 'New', 4500,
+        'Assets\\images\\products\\RONY_LOPES.jpg'),
        ('Sergei Parshivlyuk', 'Russia', 'Spartak Moskva', 76, 72, 'Champions League Card', 'New', 4200,
-        'SERGEI_PARSHIVLYUK.jpg'),
+        'Assets\\images\\products\\SERGEI_PARSHIVLYUK.jpg'),
        ('Stephen Eustáquio', 'Canada', 'Canada National Team', 62, 65, 'Hero Card', 'New', 3800,
-        'STEPHEN_EUSTAQUIO.jpg'),
-       ('Tarek Salman', 'Qatar', 'Qatar National Team', 75, 63, 'Hero Card', 'New', 4000, 'TAREK_SALMAN.jpg'),
+        'Assets\\images\\products\\STEPHEN_EUSTAQUIO.jpg'),
+       ('Tarek Salman', 'Qatar', 'Qatar National Team', 75, 63, 'Hero Card', 'New', 4000,
+        'Assets\\images\\products\\TAREK_SALMAN.jpg'),
        ('Tarik Tissoudali', 'Morocco', 'Morocco National Team', 64, 77, 'Hero Card', 'New', 4100,
-        'TARIK_TISSOUDALI.jpg'),
+        'Assets\\images\\products\\TARIK_TISSOUDALI.jpg'),
        ('Thibaut Courtois', 'Belgium', 'Belgium National Team', 99, 93, 'Top Keeper Card', 'New', 7000,
-        'THIBAUT_COURTOIS.jpg');
+        'Assets\\images\\products\\THIBAUT_COURTOIS.jpg');
 
 INSERT INTO products (jatekosnev, nemzetiseg, csapat, tamadopont, vedopont, leiras, allapot, ar, kartyakep)
-VALUES
-    ('Virgil van Dijk', 'Netherlands', 'Netherlands National Team', 69, 88, 'Captain Card', 'New', 6500, 'VIRGIL_VAN_DIJK.jpg'),
-    ('Vladimír Coufal', 'Czech Republic', 'Czech Republic National Team', 43, 74, 'Experience Card', 'New', 5000, 'VLADIMIR_COUFAL.jpg'),
-    ('Walid Abbas', 'UAE', 'UAE National Team', 77, 67, 'Contender Card', 'New', 4800, 'WALID_ABBAS.jpg'),
-    ('Zeki Çelik', 'Turkey', 'Turkey National Team', 45, 74, 'Masterclass Card', 'New', 5200, 'ZEKI_CELIK.jpg');
+VALUES ('Virgil van Dijk', 'Netherlands', 'Netherlands National Team', 69, 88, 'Captain Card', 'New', 6500,
+        'Assets\\images\\products\\VIRGIL_VAN_DIJK.jpg'),
+       ('Vladimír Coufal', 'Czech Republic', 'Czech Republic National Team', 43, 74, 'Experience Card', 'New', 5000,
+        'Assets\\images\\products\\VLADIMIR_COUFAL.jpg'),
+       ('Walid Abbas', 'UAE', 'UAE National Team', 77, 67, 'Contender Card', 'New', 4800,
+        'Assets\\images\\products\\WALID_ABBAS.jpg'),
+       ('Zeki Çelik', 'Turkey', 'Turkey National Team', 45, 74, 'Masterclass Card', 'New', 5200,
+        'Assets\\images\\products\\ZEKI_CELIK.jpg');
 
 INSERT INTO `nationality` (`p_nat_name`, `p_nat_desc`)
 VALUES ('Qatar', 'Qatari National Team'),
@@ -385,11 +401,90 @@ VALUES (41, 10), -- England
        (50, 6); -- Belgium
 
 INSERT INTO product_nationality (productID, nationalityID)
-VALUES
-    (51, 5),  -- Netherlands
-    (52, 10), -- Czech Republic
-    (53, 11), -- UAE
-    (54, 12); -- Turkey
+VALUES (51, 5),  -- Netherlands
+       (52, 10), -- Czech Republic
+       (53, 11), -- UAE
+       (54, 12); -- Turkey
+
+CREATE TABLE `types`
+(
+    `typeID`      bigint(20)  NOT NULL,
+    `p_type_name` varchar(30) NOT NULL,
+    `p_type_desc` text        NOT NULL
+);
+
+ALTER TABLE `types`
+    ADD PRIMARY KEY (`typeID`);
+
+ALTER TABLE `types`
+    MODIFY `typeID` bigint(20) NOT NULL AUTO_INCREMENT,
+    AUTO_INCREMENT = 1;
+
+ALTER TABLE `product_type`
+    ADD CONSTRAINT `1_Product_Many_Types` FOREIGN KEY (`productID`) REFERENCES `products` (`productID`) ON DELETE CASCADE ON UPDATE CASCADE,
+    ADD CONSTRAINT `1_Type_Many_Products` FOREIGN KEY (`typeID`) REFERENCES `types` (`typeID`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+INSERT INTO `types` (`typeID`, `p_type_name`, `p_type_desc`)
+VALUES (1, 'új', 'az új kártyákat újként jelölik'),
+       (2, 'kiemelt', 'a nagy érdeklődést kiváltó kártyákat kiemeltként jelölik'),
+       (3, 'akciós', 'az akciós kártyákat akciósként jelölik'),
+       (4, 'legjobb', 'a legjobban fogyó kártyákat legjobbként jelölik');
+
+INSERT INTO `product_type` (`productID`, `typeID`)
+VALUES (1, 2),
+       (2, 2),
+       (3, 2),
+       (4, 2),
+       (5, 2),
+       (6, 2),
+       (7, 1),
+       (8, 1),
+       (9, 1),
+       (10, 1),
+       (11, 1),
+       (12, 1),
+       (13, 2),
+       (14, 2),
+       (15, 2),
+       (16, 2),
+       (17, 2),
+       (18, 2),
+       (19, 2),
+       (20, 2),
+       (21, 2),
+       (22, 2),
+       (23, 2),
+       (24, 2),
+       (25, 2),
+       (26, 2),
+       (27, 2),
+       (28, 2),
+       (29, 2),
+       (30, 2),
+       (31, 2),
+       (32, 2),
+       (33, 2),
+       (34, 2),
+       (35, 2),
+       (36, 2),
+       (37, 2),
+       (38, 2),
+       (39, 2),
+       (40, 2),
+       (41, 2),
+       (42, 2),
+       (43, 2),
+       (44, 2),
+       (45, 2),
+       (46, 2),
+       (47, 2),
+       (48, 2),
+       (49, 2),
+       (50, 2),
+       (51, 2),
+       (52, 2),
+       (53, 2),
+       (54, 2);
 
 
 COMMIT;
