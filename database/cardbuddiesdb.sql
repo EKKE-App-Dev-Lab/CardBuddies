@@ -321,7 +321,75 @@ VALUES (19, 'England', 'English National Team'),
        (22, 'Slovenia', 'Slovenian National Team'),
        (23, 'Mexico', 'Mexican National Team');
 
+-- Assuming the nationalityID values match the order of insertions above
+INSERT INTO `product_nationality` (`productID`, `nationalityID`)
+VALUES (1, 1), -- Abdulkarim Hassan - Qatar
+       (2, 2), -- Achraf Hakimi - Morocco
+       (3, 3), -- Ádám Nagy - Hungary
+       (4, 4), -- Alejandro Balde - Spain
+       (5, 5), -- Alfredo Morales - Germany
+       (6, 6), -- Andreas Christensen - Denmark
+       (7, 7), -- Andrew Robertson - Scotland
+       (8, 8), -- Augusto Batalla - Argentina
+       (9, 9), -- Bryan Ruiz - Costa Rica
+       (10, 6);
+-- Christian Eriksen - Denmark
 
+-- Assuming the nationalityID values match the order of insertions above
+INSERT INTO `product_nationality` (`productID`, `nationalityID`)
+VALUES (11, 10), -- David Alaba - Austria
+       (12, 11), -- Diego Biseswar - Suriname
+       (13, 12), -- Eden Hazard - Belgium
+       (14, 8),  -- Éver Banega - Argentina
+       (15, 13), -- Georginio Wijnaldum - Netherlands
+       (16, 14), -- Giorgos Masouras - Greece
+       (17, 15), -- Goncalo Ramos - Portugal
+       (18, 16), -- Harry Kane - England
+       (19, 17), -- Ivan Perisic - Croatia
+       (20, 16); -- Jack Grealish - England
+
+INSERT INTO `product_nationality` (`productID`, `nationalityID`)
+VALUES (21, 1),
+       (22, 1),
+       (23, 2),
+       (24, 3),
+       (25, 4),
+       (26, 5),
+       (27, 1),
+       (28, 6),
+       (29, 6),
+       (30, 7);
+
+INSERT INTO product_nationality (productID, nationalityID)
+VALUES (31, 19), -- Marcus Rashford -> England
+       (32, 5),  -- Mark Uth -> Germany
+       (33, 19), -- Mason Greenwood -> England
+       (34, 20), -- Mathew Ryan -> Australia
+       (35, 21), -- Matija Nastasic -> Serbia
+       (36, 13), -- Memphis Depay -> Netherlands
+       (37, 22), -- Miha Zajc -> Slovenia
+       (38, 23), -- Moises Munoz -> Mexico
+       (39, 15), -- Pepe -> Portugal
+       (40, 15); -- Raphael Guerreiro -> Portugal
+
+INSERT INTO product_nationality (productID, nationalityID)
+VALUES (41, 10), -- England
+       (42, 5),  -- Netherlands
+       (43, 4),  -- Argentina
+       (44, 3),  -- Hungary
+       (45, 7),  -- Portugal
+       (46, 8),  -- Russia
+       (47, 9),  -- Canada
+       (48, 1),  -- Qatar
+       (49, 2),  -- Morocco
+       (50, 6); -- Belgium
+
+INSERT INTO product_nationality (productID, nationalityID)
+VALUES
+    (51, 5),  -- Netherlands
+    (52, 10), -- Czech Republic
+    (53, 11), -- UAE
+    (54, 12); -- Turkey
 
 
 COMMIT;
