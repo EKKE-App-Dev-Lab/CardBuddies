@@ -97,3 +97,13 @@ CREATE TABLE `orderitem`
     `quantity`    smallint(6) NOT NULL,
     `createDate`  timestamp   NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 );
+
+CREATE TABLE `transaction`
+(
+    `tranID`        bigint(20) NOT NULL,
+    `userID`        bigint(20) NOT NULL,
+    `orderID`       bigint(20) NOT NULL,
+    `paymentMethod` text       NOT NULL,
+    `status`        text       NOT NULL,
+    `createDate`    timestamp  NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+);
