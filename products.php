@@ -118,7 +118,7 @@ $Q_fetch_categories = "SELECT * FROM nationality";
             xhttp.send();
             console.log('sent');
 
-            document.getElementById('small_title').innerHTML = 'KATEGÓRIA';
+            document.getElementById('small_title').innerHTML = 'Nemzetiség';
             document.getElementById('big_title').innerHTML = cat_name;
 
         }

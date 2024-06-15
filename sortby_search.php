@@ -23,7 +23,7 @@ while($row_product = mysqli_fetch_assoc($result_sortby)){
                        <div class="featured__new">ÚJ</div>
                        <div class=""><a href="product.php?product_id='.$product_id.' "><i class="bx bxs-cart-add bx-tada-hover featured__new_cart"></i></a></div>
                        <a href="product.php?product_id='.$product_id.'" >
-                           <img src="'.$row_product['csapat'].'" alt="" class="featured__img avoid__clicks"
+                           <img src="'.$row_product['kartyakep'].'" alt="" class="featured__img avoid__clicks"
                            style="
                                object-fit: cover;
                                width:  232px;
@@ -31,7 +31,7 @@ while($row_product = mysqli_fetch_assoc($result_sortby)){
                        </a>
                    </div>
                    <div class="featured__data">
-                       <a href="product.php?product_id='.$product_id.'" class="product__name" id="product__name"style="text-decoration: none;">'.$row_product['csapat'].'</a></br>
+                       <a href="product.php?product_id='.$product_id.'" class="product__name" id="product__name"style="text-decoration: none;">'.$row_product['jatekosnev'].'</a></br>
                        <span class="featured__price">'.$row_product['ar'].' Ft</span>
                    </div>
                </div> ';
