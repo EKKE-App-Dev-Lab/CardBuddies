@@ -155,7 +155,7 @@ if (isset($_GET['product_id'])) {
     $run_get_cat_id = mysqli_query($conn, $Q_get_cat_id);
     $row_cat_id = mysqli_fetch_array($run_get_cat_id);
 
-    $p_name = $row_product['csapat'];
+    $p_name = $row_product['jatekosnev'];
     $p_desc = $row_product['leiras'];
     $p_img = $row_product['kartyakep'];
     $p_price = $row_product['ar'];
