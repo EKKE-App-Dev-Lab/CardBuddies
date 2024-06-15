@@ -387,7 +387,7 @@
 
     /* Start Rólunk Header */
     .about-us-header .banner{
-    background:linear-gradient(rgba(6, 0, 85, 0.3), rgba(6, 0, 85, 0.3)), url("./Assets/images/4.aboutus/Banner.jpg");
+    background:linear-gradient(rgba(6, 0, 85, 0.3), rgba(6, 0, 85, 0.3)), url("Assets/images/4.aboutus/Banner.jpg");
     padding-bottom: 150px;
     background-position: center;
     background-size: cover;
@@ -869,8 +869,8 @@
         .contact-us-header .banner{
         background:linear-gradient(rgba(6, 0, 85, 0.3), rgba(6, 0, 85, 0.3)), url("./Assets/images/5.contactus/Banner.jpg");
         padding-bottom: 150px;
-        background-position: bottom;
-        background-size: cover;
+        background-position: center;
+        background-size: contain;
         }
         /* End Banner */
         
