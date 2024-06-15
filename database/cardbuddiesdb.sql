@@ -36,4 +36,11 @@ CREATE TABLE `product_type`
     `typeID`    bigint(20) NOT NULL
 );
 
+CREATE TABLE `types`
+(
+    `typeID`      bigint(20)  NOT NULL,
+    `p_type_name` varchar(30) NOT NULL,
+    `p_type_desc` text        NOT NULL
+);
+
 
