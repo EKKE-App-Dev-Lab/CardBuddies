@@ -71,13 +71,13 @@ include "./AdditionalPHP/startSession.php";
             <div class="row">
 
                 <div class="column">
-                    <span class="what-you-can-do-subtitle">Egyedi Gyártás, Személyre Szabott Élmény</span>
+                    <span class="what-you-can-do-subtitle">Egyedi Gyártás</span>
                     <span class="what-you-can-do-text">Minden kártya, amit készítünk, egyedi műalkotás...</span>
                 </div>
 
                 <div class="column">
                     <span class="what-you-can-do-subtitle">Kiváló Minőségű Anyagok</span>
-                    <span class="what-you-can-do-text">Csak a legjobb minőségű anyagokat és legmodernebb technikákat haszná.</span>
+                    <span class="what-you-can-do-text">Csak a legjobb minőségű anyagokat és legmodernebb technikákat használjuk.</span>
                 </div>
 
                 <div class="column">
