@@ -24,4 +24,10 @@ CREATE TABLE `nationality`
     `p_nat_desc` text        NOT NULL
 );
 
+CREATE TABLE `product_nationality`
+(
+    `productID`  bigint(20) NOT NULL,
+    `nationalityID` bigint(20) NOT NULL
+);
+
 
