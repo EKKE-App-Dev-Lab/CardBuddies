@@ -45,8 +45,114 @@ A rendszert regisztrációval nem rendelkező felhasználók (látogatók) is er
 tartalom elérhető számukra, amelyek révén információkat szerezhetnek az eladókról, általuk kínált szolgáltatásokról és
 termékekről. Emellett kapcsolatfelvételi lehetőség is adódik számukra.
 
-A regisztrált felhasználók, akiket vásárlóknak vagy eladóknak tekintünk, képesek online kiválasztani és megvásárolni a kívánt terméket, vagy eladásra kínálni saját kártyáikat. Ezt követően lehetőségük van a kifizetésre, valamint a kiszállítás a megadott címre történik.
+A regisztrált felhasználók, akiket vásárlóknak vagy eladóknak tekintünk, képesek online kiválasztani és megvásárolni a
+kívánt terméket, vagy eladásra kínálni saját kártyáikat. Ezt követően lehetőségük van a kifizetésre, valamint a
+kiszállítás a megadott címre történik.
 
 Az adminisztrátor vagy a super-user jogosultságokkal rendelkező felhasználó figyelemmel követheti a megrendeléseket,
 frissítheti az online árukészletét, és naprakész információkat oszthat meg a szolgáltatásával kapcsolatban.
+
+### 3.2 Üzleti folyamatok
+
+Bejelentkezés minden felhasználó számára elérhető a megfelelő menüpont alatt:
+A ’Belépés’ ikonra kattinta megjelenik ’Felhasználó név’ és ’Jelszó’ beviteli űrlap. Ezek megadása után van lehetőség a
+belépésre. Sikertelen belépésről figyelmeztető üzenetben tájékoztatja a felhasználót a weboldal. Ha a belépés sikeres, a
+felhasználó megkapja a belépett felhasználó jogait.
+
+### Üzleti folyamatok regisztrálatlan felhasználók számára:
+
+##### Keresés az eladó termékek között:
+
+A regisztrálatlan felhasználók a Termékek lapon tudnak keresni a megvásárolható termékek között, de a megvásárolni
+kívánt tételt nem tudják a kosarukba helyezni.
+
+#### Regisztráció a rendszerben:
+
+A még nem regisztrált vásárlók számára a következő adatok megadása szükséges a regisztráció során:
+
+| Megnevezés     
+|----------------|
+| Felhasználónév |
+| Keresztnév     
+| Vezetéknév     
+| Email          
+| Jelszó         
+| Jelszó újra    
+
+Miután a felhasználó megfelelően kitöltötte az adatokat és a rendszer sikeresen validálta azokat, értesítést kap a fiók
+megerősítési kötelezettségéről. A regisztráció érvényessé válik, amikor a felhasználó az e-mailben megadott címen
+megerősíti azt. Ezt követően a felhasználót hivatalosan regisztráltnak tekintjük.
+
+A felhasználó valamennyi személyes adata biztonságban van, mivel azok jelszóval védett adatbázisban tárolódnak. A
+felhasználó jelszava további adatvédelmi intézkedéseket tartalmaz, ugyanis hash algoritmus segítségével kerül tárolásra,
+ezzel maximalizálva a biztonságot. Ezen eljárások együttesen hozzájárulnak ahhoz, hogy a felhasználók személyes
+információi védettek és biztonságban maradjanak a rendszerben.
+
+### Üzleti folyamatok regisztrált felhasználók számára
+
+#### Bejelentkezés:
+
+### Üzleti folyamatok regisztrált felhasználók számára
+
+#### Bejelentkezés:
+
+Regisztrált felhasználóinknak lehetőségük van bejelentkezni a rendszerbe, megadva az azonosítójukat (felhasználónév) és
+jelszavukat.
+
+#### Kijelentkezés:
+
+A felhasználó bejelentkezve a felhasználó ikonra kattintva az adminisztrációs felületre jut, ahol a kijelentkezés gombra
+kattintva tud kijelentkezni a felületről.
+
+#### Jelszó helyreállítása:
+
+Ha a regisztrált felhasználó elfelejtette jelszavát, lehetősége van a jelszó helyreállítására. Ebben az esetben egy új,
+ideiglenes jelszó kerül kiküldésre a felhasználó által regisztrált email címre. Az ideiglenes jelszó segítségével
+történik a bejelentkezés, majd lehetőség adódik a jelszó azonnali cseréjére a felhasználó által választott,
+biztonságosabb jelszóra.
+
+#### Regisztrált felhasználói fiók adatainak módosítása:
+
+A regisztrált felhasználónak lehetősége van a felhasználó ikonra kattintva megváltoztatni az adatait, nevét,
+telefonszámát, címét vagy jelszót tud módosítani.
+
+#### Regisztrált felhasználói fiók törlése:
+
+A regisztrált felhasználónak leheetősége van törölni a fiókját. Minden a felhasználóhoz kapcsolódó a rendszerben tárolt
+adat törlésre kerül. A törlés fizikai törlés azaz nincsen lehetőség a törölt felhasználó visszaállítására.
+
+#### Keresés az eladó termékek között regisztrált felhasználóként:
+
+A regisztrált felhasználók a Termékek lapon tudnak keresni a megvásárolható termékek között és a megvásárolni kívánt
+tételt a kosarukba helyezni.
+
+#### Vásárlás:
+
+A vásárlás során a felhasználónak lehetősége van a keresés során visszakapott termékekből vásárolni.
+Ennek a lépései a következőek:
+
+- A megvásárolandó termék kikeresése.
+- A megvásárolandó termék vásárlói kosárba helyezése.
+- A kosár véglegesítése. A véglegesítés során lehetősége van a regisztrált felhasználónak (vásárlónak) még egyszer
+  meggyőződni a kosár tartalmáról. A vásárlás véglegesítéséhez az alábbi adatok szükségesek:
+
+| Szükséges adatok         
+|--------------------------|
+| Számlázási cím           
+| Szállítási cím           
+| Fizetési mód választása  
+| Fizetési adatok megadása |
+
+- Validáció után a rendszer regisztrálja a vásárlási szándékot, értesíti, mind az eladót és a vásárlót a vásárlásról,
+  majd a frissíti a készletinformációkat is.
+- A felhasználót a rendszer a felületen értesíti a vásárálás sikerességéről, majd üríti a vásárlói kosarat, hiszen az
+  ottani termékek már megvásárlásra kerültek.
+
+### Üzleti folyamatok admin (super user) felhasználók számára
+
+Az adminisztrátor/eladó jogosultságú felhasználónak lehetősége van az alábbiakra:
+
+- új termékek felvitele
+- termékek adatainak módosítása
+- termékek törlése
 
