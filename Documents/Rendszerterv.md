@@ -160,3 +160,9 @@ Az adminisztrátor/eladó jogosultságú felhasználónak lehetősége van az al
 
 - futball kártya 
 - megrendelés
+
+## 4. Követelmények
+
+Egy PHP-t futtatni képes webszerver MySQL adatbázissal, valamint e-mail küldéssel a regisztrációhoz, egy modern böngésző
+felület.
+
