@@ -419,5 +419,18 @@ hibajavítás nem okoz máshol hibát, ami korábban működött.
 | TEST1_01111 | A weboldal Kapcsolat oldal Lábjegyzet szekció megjelenítés                                        | Cégnév, címadatok, elérhetőségek látszódnak                                                                                      |
 | TEST1_01112 | A weboldal Kapcsolat oldal Lábjegyzet Adatkezelési tájékoztató és ÁSZF                            | Kattintásra a dokumentumok megnyílnak a böngészőben                                                                              |
 
+## 11. Telepítési terv
+
+Helyi gépre való telepítés esetén a következőkre lesz szükség:
+
+- Egy webszerver környezetre, ami tudja az Apache/PHP/MySQL hármast.
+- Egy modern böngészőt futtatni képes operációs rendszer (és az ehhez megfelelő hardverrel ellátott eszköz).
+- Egy modern böngésző.
+
+Webtárhelyre való telepítés esetén a következőkre lesz szükség:
+
+- Egy a Apache/PHP/MySQL hármast támogató tárhely.
+- Egy program, amivel FTP kapcsolaton keresztül feltölthetők a webalkalmazás fájljai.
+- Egy modern böngésző.
 
 
