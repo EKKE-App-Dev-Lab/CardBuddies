@@ -100,7 +100,7 @@
                 <div class="column">
                     <i class="fas fa-solid fa-star"  style="color: black;"></i>
                     <span class="what-you-can-do-subtitle create-box">Új kiadású kártyák</span>
-                    <span class="what-you-can-do-text">Találd meg korunk zseniei limitált kiadású példányait</span>
+                    <span class="what-you-can-do-text">Találd meg korunk zsenijei limitált kiadású példányait</span>
                 </div>
 
             </div>
