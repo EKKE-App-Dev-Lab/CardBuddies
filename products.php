@@ -7,7 +7,7 @@ include "./AdditionalPHP/startSession.php";
 <html lang="en-MU">
 <head>
     <meta charset="utf-8">
-    <title>VINYLMASTER | Termékek</title>
+    <title>CardBuddies | Termékek</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
     include_once 'connection.php';

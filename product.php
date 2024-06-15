@@ -151,16 +151,16 @@ if (isset($_GET['product_id'])) {
     $run_get_type_id = mysqli_query($conn, $Q_get_type_id);
     $row_type_id = mysqli_fetch_array($run_get_type_id);
 
-    $Q_get_cat_id = "SELECT * FROM product_category WHERE productID = '$product_id'";
+    $Q_get_cat_id = "SELECT * FROM product_nationality WHERE productID = '$product_id'";
     $run_get_cat_id = mysqli_query($conn, $Q_get_cat_id);
     $row_cat_id = mysqli_fetch_array($run_get_cat_id);
 
-    $p_name = $row_product['albumcim'];
+    $p_name = $row_product['csapat'];
     $p_desc = $row_product['leiras'];
-    $p_img = $row_product['boritokep'];
+    $p_img = $row_product['kartyakep'];
     $p_price = $row_product['ar'];
     $typeID = $row_type_id['typeID'];
-    $categoryID = $row_cat_id['categoryID'];
+    $categoryID = $row_cat_id['nationalityID'];
 } else {
 
 }
