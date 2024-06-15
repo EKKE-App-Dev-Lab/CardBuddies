@@ -257,3 +257,10 @@ Főbb oldalak:
 * **contact.php**, a kapcsolatfelvétel részleteinek bemutatására
 * **cart.php**, a bejelentkezett felhasználó kosár tartalmának megjelenítéséhez
 
+## 6. Fizikai környezet
+
+Kliens oldalon egy modern böngészőt futtatni képes operációs rendszerre van szükség (és ettől függően egy megfelelő
+hardverrel ellátott eszközre). Az oldal struktúrájáért a HTML, a megjelenítésért a CSS valamint Bootstrap és az
+interakciókért a JavaScript felelős.
+
+
