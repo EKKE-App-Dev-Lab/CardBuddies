@@ -263,4 +263,34 @@ Kliens oldalon egy modern böngészőt futtatni képes operációs rendszerre va
 hardverrel ellátott eszközre). Az oldal struktúrájáért a HTML, a megjelenítésért a CSS valamint Bootstrap és az
 interakciókért a JavaScript felelős.
 
+## 7. Absztrakt domain modell
+
+## 8. Architekturális terv
+
+A rendszer folyamatosan bővíthető az eladó által. Új termékeket vihet fel, valamint módosíthatja és törölheti a
+meglévőket.
+
+Biztonsági funkciók közé tartozik, hogy van adminisztrátori fiók. Az adminisztrátor minden regisztrált felhasználó
+adatát láthatja és kezelheti, kivéve a jelszót, mivel az titkosítva van eltárolva. Minden felhasználó csak a saját
+adatait módosíthatja.
+
+## 9. Adatbázis terv
+
+A CardBuddies webshop által használt MySQL adatbázis, a cardbuddiesdb, egy olyan adatbázis-rendszer, amelyet úgy
+terveztünk, hogy kezelje az online fociskártyabolt adatait. A struktúra több táblát tartalmaz, mint például products,
+nationality, product_category, types, product_nationality, user, cart, cartitem, userorder, orderitem, és transaction.
+
+Ebben a rendszerben a products tábla tárolja az eladásra kínált kártyák adatait, beleértve az játékos nevét,
+nemzetiségét, leírását, állapotát, védő és támadó pontját, árát, és a kártya képét. A nationality és types táblák
+különböző nemzetiségeket és típusokat definiálnak, amelyeket aztán a product_nationalizy és product_type táblákon
+keresztül kapcsolnak össze a termékekkel.
+
+A user tábla a felhasználók adatait tárolja, beleértve a felhasználónevet, jelszót, nevet, e-mail címet, címet,
+telefonszámot, és további információkat. A vásárlási folyamatot a cart, cartitem, userorder, orderitem, és transaction
+táblák kezelik, amelyek a kosárba helyezett termékeket, a megrendeléseket és a tranzakciókat követik nyomon.
+
+Az alábbi ábra mutatja az adatbázis felépítését:
+
+![img.png](adatbazis.png)
+
 
