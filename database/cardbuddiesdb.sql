@@ -61,4 +61,8 @@ CREATE TABLE `user`
     `createDate`   timestamp    NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 );
 
-
+CREATE TABLE `cart`
+(
+    `cartID` bigint(20) NOT NULL,
+    `userID` bigint(20) NOT NULL
+);
