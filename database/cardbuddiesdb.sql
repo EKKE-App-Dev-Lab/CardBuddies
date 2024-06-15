@@ -66,3 +66,13 @@ CREATE TABLE `cart`
     `cartID` bigint(20) NOT NULL,
     `userID` bigint(20) NOT NULL
 );
+
+CREATE TABLE `cartitem`
+(
+    `cartItemID` bigint(20)  NOT NULL,
+    `productID`  bigint(20)  NOT NULL,
+    `cartID`     bigint(20)  NOT NULL,
+    `price`      float       NOT NULL,
+    `quantity`   smallint(6) NOT NULL,
+    `createDate` timestamp   NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+);
