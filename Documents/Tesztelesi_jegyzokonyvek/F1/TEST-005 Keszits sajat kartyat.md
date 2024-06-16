@@ -2,13 +2,13 @@
 
 ## Adatok
 
-- Tesztelő: _Kovács Erik__
-- Teszteléshez használt fiók: __almafa__
+- Tesztelő: __BAUER ANDRÁS__
+- Teszteléshez használt fiók: __scqvoq__
 
 ## Környezet
 
-- Operációs rendszer: Windows 10 Enterprise 21H2 (64 bit) 
-- Böngésző: Firefox 121.0.1 (64 bit)
+- Operációs rendszer: __WINDOWS 11 HOME__ __23H2__ (64 bit) 
+- Böngésző: __GOOGLE CHROME__ __CHROME 125.0.6422.176__ (64 bit)
 
 ## Tesztesetek:
 
