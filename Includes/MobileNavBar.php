@@ -14,7 +14,7 @@
         <ul>
             <li><a href="index.php" class="<?php if($page == 'index'){echo 'active';}?>" href="index.php">KEZDŐOLDAL</a></li>
             <li><a href="products.php" class="<?php if($page == 'products'){echo 'active';}?>" href="products.php">KÁRTYÁK</a></li>
-            <li><a href="makeyourvinyl.php" class="<?php if($page == 'makeyourcake'){echo 'active';}?>" href="makeyourcake.php">KÉSZÍTS SAJÁT KÁRTYÁT</a></li>
+            <li><a href="makeyourvinyl.php" class="<?php if($page == 'makeyourcake'){echo 'active';}?>" href="makeyourcard.php">KÉSZÍTS SAJÁT KÁRTYÁT</a></li>
             <li><a href="about.php" class="<?php if($page == 'about'){echo 'active';}?>" href="about.php">RÓLUNK</a></li>
             <li><a href="contact.php" class="<?php if($page == 'contact'){echo 'active';}?>" href="contact.php">KAPCSOLATFELVÉTEL</a></li>
         </ul>
