@@ -191,7 +191,7 @@ function test_input($data)
                                 <!-- TERMÉK 1  -->
                                 <li class="list-group-item d-flex justify-content-between lh-sm linen-rows">
                                     <div>
-                                        <h6 class="my-0"><?php echo $product_row['albumcim']; ?></h6>
+                                        <h6 class="my-0"><?php echo $product_row['jatekosnev']; ?></h6>
                                         <small class="text-muted">x <?php echo $product['quantity']; ?> db</small>
                                     </div>
                                     <span class="text-muted price-tag">HUF <?php echo number_format(($product['quantity'] * $product_row['ar']), 2); ?></span>
