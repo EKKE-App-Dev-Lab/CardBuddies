@@ -77,3 +77,24 @@ def test_ordering(browser):
     browser.find_element(By.ID, "cc-expiration-mm").send_keys("12")
     browser.find_element(By.ID, "cc-expiration-yy").send_keys("2025")
     browser.find_element(By.ID, "cc-cvv").send_keys("123")
+
+    time.sleep(2)
+
+    button = browser.find_element(By.XPATH, "//button[text()='Tovább a pénztárhoz']")
+    browser.execute_script("arguments[0].scrollIntoView(true);", button)
+    time.sleep(2)
+    button.click()
+
+    time.sleep(2)
+
+    button = browser.find_element(By.XPATH, "//button[text()='Tovább a pénztárhoz']")
+    browser.execute_script("arguments[0].scrollIntoView(true);", button)
+    time.sleep(2)
+    button.click()
+
+    time.sleep(2)
+
+    home_button = browser.find_element(By.XPATH, "//a[text()='Kezdőoldal']")
+    home_button.click()
+
+    time.sleep(2)
