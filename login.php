@@ -65,8 +65,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                         $to = $row['email'];
                         $subject = "Emailcím megerősítése - CardBuddies";
-                        $message = "<a href='http://localhost/MyFiles/CakeShop/verifyEmail.php?vkey=$vkey'>Fiók regisztrációja</a>";
-                        $altMessage = "Fiók aktiválása az alábbi linken lehetséges: http://localhost/MyFiles/CakeShop/verifyEmail.php?vkey=$vkey";
+                        $message = "<a href='http://localhost/CardBuddies/verifyEmail.php?vkey=$vkey'>Fiók regisztrációja</a>";
+                        $altMessage = "Fiók aktiválása az alábbi linken lehetséges: http://localhost/CardBuddies/verifyEmail.php?vkey=$vkey";
                         $headers = "From: carbdubbies@gmail.com \r\n";
                         $headers .= "MIME-Version: 1.0" . "\r\n";
                         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
