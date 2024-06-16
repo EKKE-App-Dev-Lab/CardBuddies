@@ -43,3 +43,37 @@ def test_ordering(browser):
     ascending_sort.click()
 
     time.sleep(1)
+
+    cards = browser.find_elements(By.CLASS_NAME, "featured__products")
+    cards[0].click()
+
+    time.sleep(2)
+
+    kosarba = browser.find_element(By.ID, "add-to-cart-btn")
+    kosarba.click()
+
+    time.sleep(3)
+
+    browser.get("http://localhost/cardbuddies/cart.php")
+
+    print("Most expensive card added to cart and navigated to cart successfully.")
+
+    time.sleep(2)
+
+    browser.get("http://localhost/cardbuddies/checkout.php")
+
+    time.sleep(2)
+
+    browser.find_element(By.ID, "firstName").send_keys("John")
+    browser.find_element(By.ID, "lastName").send_keys("Doe")
+    browser.find_element(By.ID, "email").send_keys("john.doe@example.com")
+    browser.find_element(By.ID, "address").send_keys("123 Main St")
+    browser.find_element(By.ID, "country").send_keys("Magyarország")
+    browser.find_element(By.ID, "state").send_keys("Budapest")
+    browser.find_element(By.ID, "zip").send_keys("1111")
+    browser.find_element(By.ID, "credit").click()
+    browser.find_element(By.ID, "cc-name").send_keys("John Doe")
+    browser.find_element(By.ID, "cc-number").send_keys("4111111111111111")
+    browser.find_element(By.ID, "cc-expiration-mm").send_keys("12")
+    browser.find_element(By.ID, "cc-expiration-yy").send_keys("2025")
+    browser.find_element(By.ID, "cc-cvv").send_keys("123")
