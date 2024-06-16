@@ -401,7 +401,7 @@
         font-size: 50px;
         padding-top: 20px;
         padding-bottom: 60px;
-        color:#1a73e8;
+        color:rgba(178, 223, 40, 1.000);
     }
     /*End Rólunk Header*/
     
@@ -415,7 +415,7 @@
     .baker-info-group .baker-info-title span{
     font-size: 25px;
     font-family: Courgette;
-    color:#1a73e8;
+    color:rgba(178, 223, 40, 1.000);
     }
     
     .baker-info-group .baker-name{
@@ -435,7 +435,7 @@
     }
     
     .baker-signature .signature-photo{
-    background-image: url("./Assets/images/4.aboutus/Sara_Signature.png");
+    background-image: url("./Assets/images/4.aboutus/Kata_Signature.png");
     padding-bottom: 50%;
     background-size:contain;
     background-repeat: no-repeat;
@@ -653,7 +653,7 @@
         .baker-info-group .baker-info-title span{
             font-size: 25px;
             font-family: Courgette;
-            color:#1a73e8;
+            color:rgba(178, 223, 40, 1.000);
         }
         
         .baker-info-group .baker-name{
@@ -685,11 +685,11 @@
         .baker-info-group .baker-position span{
             font-size: 20px;
             font-family: Courgette;
-            color:#1a73e8;
+            color:rgba(178, 223, 40, 1.000);
         }
         
         .baker-photo-group .baker-photo{
-            background-image: url("./Assets/images/4.aboutus/Sara_Transparent.png");
+            background-image: url("./Assets/images/4.aboutus/Kata_Transparent.png");
             padding-bottom: 100%;
             background-size: 500px;
             background-size: cover;
