@@ -72,12 +72,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         $mail->isSMTP();
                         $mail->Host = 'smtp.gmail.com';
                         $mail->SMTPAuth = true;
-                        $mail->Username = 'vinylmasters.hungary@gmail.com';
+                        $mail->Username = 'carbdubbies@gmail.com';
                         $mail->Password = 'wrlbddenzoendmbz';
                         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
                         $mail->Port = 465;
 
-                        $mail->setFrom('vinylmasters.hungary@gmail.com', 'Vinylmaster');
+                        $mail->setFrom('carbdubbies@gmail.com', 'CardBuddies');
                         $mail->addAddress($to);
 
                         $mail->isHTML(true);
