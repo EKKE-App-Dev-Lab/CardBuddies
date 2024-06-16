@@ -153,7 +153,7 @@ $Q_fetch__all_products = "SELECT * FROM products";
                             ?>
                             <!-- Megjelenít egy képet az adatbázisból azonosító alapján -->
                             <div class="cart_img">
-                                <img src="<?php echo $product_row['boritokep']; ?>" class="img-fluid">
+                                <img src="<?php echo $product_row['kartyakep']; ?>" class="img-fluid">
                             </div>
 
                             <?php
