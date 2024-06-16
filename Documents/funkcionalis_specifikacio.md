@@ -85,14 +85,13 @@ Kezdőoldal látványos kép elemekkel, de alapvetően nem kattintható, csak eg
 Fejléc:
 Cég logo baloldalon a fejlécben, minden oldalon látható.
 Fejlécben a menüsor, benne Kezdőoldal/Termékek/Új termék hozzáadása/Készítsd el a saját
-bakelited/Rólunk/Kapcsolatfelvétel. Új termék hozzáadása csak az Eladó felhasználónál látszik.
+kártyádat/Rólunk/Kapcsolatfelvétel. Új termék hozzáadása csak az Eladó felhasználónál látszik.
 Fejléc jobb oldalon kattintható Kosár és Felhasználó ikonok.
 Bejelentkezés után válik elérhetővé a terméklista és Vevő felhasználók részére a vásárlási lehetőség, addig „A termékek
 megtekintéséhez regisztráció és bejelentkezés szükséges” tájékoztató látható.
 A menüsorban bejelentkezés ikonnal lehet a felhasználóknak bejelentkezni.
 A kosár ikonra kattintva érhető el a vevők által már kosárba helyezett termékek
 A vásárlási folyamat illusztrált bemutatása.
-Néhány ízelítő kártya a kínálatból, Youtube vagy Spotify linkkel a belehallgatáshoz.
 A lábjegyzetben a szokásos hivatkozások (Adatkezelési szabályzat, Felhasználói feltételek, Támogatás stb.)
 
 ## Forgatókönyvek
@@ -116,18 +115,18 @@ címre küldött hivatkozással.
 Termék kiválasztása:
 Sikeres bejelentkezést követően, a menüsorban a Termékek menüpontban tud a Vevő a termékek között böngészni,
 kategóriákat rendezni és sorbarendezni.
-Termékek Listázása: a termékek megjelenítés (borítókép, előadó, albumcím, vételár) a kapcsolódó információkkal
+Termékek Listázása: a termékek megjelenítés (kép, játékos neve, vételár) a kapcsolódó információkkal
 Rendezési opciók: Ár szerint növekvő és csökkenő sorrend.
-Szűrési opciók: zenei kategória szerinti szűrési lehetőség
+Szűrési opciók: Játékos származása szerinti szűrés
 Vevő esetén kosárba helyezés/eltávolítás/módosítás és megrendelés lehetőséggel.
 Eladó felhasználó esetén új termékek felvitelére, meglévők módosítására és törlésére is van lehetőség.
 
-Készítsd el a saját bakelited! menüpont
-Instrukciókat tartalmaz a kapcsolatfelvételhez és a szükséges formátumról valamint a lemezkészítés folyamatáról,
+Készítsd el a saját kártyádat! menüpont
+Instrukciókat tartalmaz a kapcsolatfelvételhez és a szükséges formátumról valamint a kártyakészítés folyamatáról,
 alapvetően e-mail kommunikáción keresztül az eladóval.
 
 Rólunk menüpont
-A vevő részletes bemutatkozó oldala, néhány lemezritkaság bemutatása, az oldal alján elérhetőség Google maps linkkel és
+A vevő részletes bemutatkozó oldala, néhány ritka kártya bemutatása, az oldal alján elérhetőség Google maps linkkel és
 kapcsolatfelvételi űrlap.
 
 Kapcsolat menüpont
