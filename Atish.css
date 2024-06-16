@@ -435,7 +435,7 @@
     }
     
     .baker-signature .signature-photo{
-    background-image: url("./Assets/images/4.aboutus/Sara_Signature.png");
+    background-image: url("./Assets/images/4.aboutus/Kata_Signature.png");
     padding-bottom: 50%;
     background-size:contain;
     background-repeat: no-repeat;
@@ -689,7 +689,7 @@
         }
         
         .baker-photo-group .baker-photo{
-            background-image: url("./Assets/images/4.aboutus/Sara_Transparent.png");
+            background-image: url("./Assets/images/4.aboutus/Kata_Transparent.png");
             padding-bottom: 100%;
             background-size: 500px;
             background-size: cover;
