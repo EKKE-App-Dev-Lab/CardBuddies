@@ -37,7 +37,7 @@
         </div>
 
         <div class="copyright">
-            <span class="copyright-text">&#169; <?php echo date("Y"); ?> Design by András & Erik & Levente & Tamás</span>
+            <span class="copyright-text">&#169; <?php echo date("Y"); ?> Design by Edit & András & Erik & Levente & Tamás</span>
         </div>
     </div>
 </footer>
