@@ -2,13 +2,13 @@
 
 ## Adatok
 
-- Tesztelő: __Kovács Erik__
+- Tesztelő: Schönperger Edit
 - Teszteléshez használt fiók: nincs
 
 ## Környezet
 
-- Operációs rendszer: __WINDOWS__ __11 22H2__ (64 bit)
-- Böngésző: __MICROSOFT EDGE__ __125.0.6422.142__ (64 bit)
+- Operációs rendszer: __WINDOWS__ __11 23H2__ (64 bit)
+- Böngésző: Google Chrome 125.0.6422.142 (64 bit)
 
 ## Tesztesetek:
 
