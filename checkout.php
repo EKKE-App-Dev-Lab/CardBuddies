@@ -417,7 +417,7 @@ function test_input($data)
     </main>
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2024 VINYLMASTER</p>
+        <p class="mb-1">&copy; 2024 CARDBUDDIES</p>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="#">Adatkezelési tájékoztató</a></li>
             <li class="list-inline-item"><a href="#">Felhasználói feltételek</a></li>
