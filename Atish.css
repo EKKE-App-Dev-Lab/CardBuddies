@@ -401,7 +401,7 @@
         font-size: 50px;
         padding-top: 20px;
         padding-bottom: 60px;
-        color:#1a73e8;
+        color:rgba(178, 223, 40, 1.000);
     }
     /*End Rólunk Header*/
     
@@ -415,7 +415,7 @@
     .baker-info-group .baker-info-title span{
     font-size: 25px;
     font-family: Courgette;
-    color:#1a73e8;
+    color:rgba(178, 223, 40, 1.000);
     }
     
     .baker-info-group .baker-name{
@@ -653,7 +653,7 @@
         .baker-info-group .baker-info-title span{
             font-size: 25px;
             font-family: Courgette;
-            color:#1a73e8;
+            color:rgba(178, 223, 40, 1.000);
         }
         
         .baker-info-group .baker-name{
@@ -685,7 +685,7 @@
         .baker-info-group .baker-position span{
             font-size: 20px;
             font-family: Courgette;
-            color:#1a73e8;
+            color:rgba(178, 223, 40, 1.000);
         }
         
         .baker-photo-group .baker-photo{
