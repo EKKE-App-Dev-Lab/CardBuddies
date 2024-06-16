@@ -64,10 +64,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     if(mysqli_query($conn, $sql)){
 
                         $to = $row['email'];
-                        $subject = "Emailcím megerősítése - Vinylmaster";
+                        $subject = "Emailcím megerősítése - CardBuddies";
                         $message = "<a href='http://localhost/MyFiles/CakeShop/verifyEmail.php?vkey=$vkey'>Fiók regisztrációja</a>";
                         $altMessage = "Fiók aktiválása az alábbi linken lehetséges: http://localhost/MyFiles/CakeShop/verifyEmail.php?vkey=$vkey";
-                        $headers = "From: asd.asd@gmail.com \r\n";
+                        $headers = "From: carbdubbies@gmail.com \r\n";
                         $headers .= "MIME-Version: 1.0" . "\r\n";
                         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
@@ -79,12 +79,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             $mail->isSMTP();
                             $mail->Host = 'smtp.gmail.com';
                             $mail->SMTPAuth = true;
-                            $mail->Username = 'vinylmasters.hungary@gmail.com';
-                            $mail->Password = 'wrlbddenzoendmbz';
+                            $mail->Username = 'carbdubbies@gmail.com';
+                            $mail->Password = 'bdnrgqeozvrklcbd';
                             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
                             $mail->Port = 465;
 
-                            $mail->setFrom('vinylmasters.hungary@gmail.com', 'Vinylmaster');
+                            $mail->setFrom('carbdubbies@gmail.com', 'CardBuddies');
                             $mail->addAddress($to);
 
                             $mail->isHTML(true);
@@ -134,7 +134,7 @@ function test_input($data) {
 <html lang="en-MU">
 <head>
     <meta charset="utf-8">
-    <title>VINYLMASTER | BEJELENTKEZÉS</title>
+    <title>CARDBUDDIES | BEJELENTKEZÉS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS File-->
     <link rel="stylesheet" type="text/css" href="Common.css">
@@ -145,7 +145,7 @@ function test_input($data) {
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <!-- Animate CSS -->
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>VINYLMASTER | Bejelentkezés</title>
+    <title>CARDBUDDIES | Bejelentkezés</title>
 </head>
 
 <body>
