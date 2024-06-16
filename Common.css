@@ -215,14 +215,12 @@ html, body{
 /* Start Kapcsolatfelvétel Form */
 .contact-section .input-error{
     font-size: 12pt;
-    color:  rgba(72,105,26,1.000);
-    color:  rgba(72,105,26,1.000);
+    color:  black;
 }
 
 .contact-section .send-input-message{
     font-size: 12pt;
-    color: rgba(72,105,26,1.000);
-    color: rgba(72,105,26,1.000);
+    color: black;
 }
 
 .contact-section h2{
@@ -325,8 +323,8 @@ html, body{
 
 .newsletter-section .send-input-message{
     font-size: 13pt;
-    color: rgba(72,105,26,1.000);
-    color: rgba(72,105,26,1.000);
+    color: black;
+
 }
 
 .newsletter{
