@@ -46,8 +46,8 @@
 /* ========== SZÍNEK =========== */
 
 :root {
-    --first-color: #1a73e8;
-    --first-color-alt: #2196f3;
+    --first-color: rgba(72,105,26,1.000);
+    --first-color-alt: rgba(121, 160, 66, 0.945);
     --white-color: white;
     --baby-pink-color: #ffd7d7;
     --yellow-color: #ffe547;
@@ -186,7 +186,7 @@ img{
 }
 
 .cart_img img{
-    max-width: 55% !important;
+    max-width: 85% !important;
     
 }
 .cart_title_bar{
@@ -654,7 +654,7 @@ padding: .8rem;
 margin-bottom: 3rem !important;
 margin-left: 10rem !important;
 margin-right: 10rem !important;
-background-color: linen ;
+background-color: rgba(178,223,40,1.000) ;
 border-left: 15px solid var(--first-color-alt);
 display: flex;
 /* border-bottom: 5px solid var(--first-color-alt); */
